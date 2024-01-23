@@ -211,12 +211,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xss.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xbss.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xss.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xbss.tfm
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Intensity.png
-OUTPUT /Users/art2/0art/art75/BetelgeusePulsation/main.pdf
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Intensity.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Pl.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Pl.png
+OUTPUT /Users/art2/0art/art75/BetelgeusePulsation/main.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xsl.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmro.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxsl.tfm
@@ -242,7 +238,21 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxbss.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xbss.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxphvb.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxbss.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txr.vf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Intensity.png
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Intensity.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Pl.png
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS Pl.png
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS stokes Q.png
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS stokes Q.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xsl.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xsl.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmro.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxsl.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
@@ -252,12 +262,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS stokes Q.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/LS stokes Q.png
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xsl.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xsl.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmro.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxsl.tfm
 INPUT /Users/art2/0art/art75/BetelgeusePulsation/main.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
