@@ -107,25 +107,9 @@ polarimetry. The photo-center displacement is affected by the size, number and t
 images, we followed the displacement of the photo-center of Betelgeuse over 10 years to recover the variability of 
 Betelgeuse. 
 
-\section{Method: Searching for periodicities in the polarization spectra of Betelgeuse}
+\section{Method}
 
-Betelgeuse has been observed for the last 13 years with Narval and Neo-Narval at the Telescope Bernard Lyot. These instruments measure the polarization 
-over the visible spectra of Betelgeuese (390-1000 nm) with high spectral resolution (R=65000) and high polarimetric sensitivity. Despite 
-this sensitivity, the signal-to-noise ratios are not sufficient to measure the weak polarization signals in the individual atomic lines of the 
-spectrum. These amplitudes are today known to be of the order of $10^{-4}$ times the continuum intensity, and only excepcionnaly do they 
-reach amplitudes of $10^{-3}$ the continuum. In these exceptional observations, enough photons can be accumulated per spectral bin to 
-see the linear polarization signal above noise \cite{Auriere}. Most commonly, the amplitudes of linear polarization are below noise levels. In those 
-occassions we have to add up the signals of thousands of lines to reduce the noise and increase the signal-to-noise ratios. This line addition 
-is done through a technique called Least-Squares Deconvolution (LSD) \cite{Donati} and assumes that the linear polarization signal is similar 
-in all spectral lines up to scale factors in the sampling and amplitude. This technique has been successfully used in the past to measure 
-magnetic field distributions over stellar surfaces and it is now used to produce images of the brightness distributions in the photosphere 
-of Betelgeuse and other red superg
-
-
-Trying to find periods in an astrophysical context can be difficult due to the unevenly spaced observed data. To overcome this issue, 
-we used the Lomb-Scargle (LS) periodogram. For a given set of data, it fits a periodic signal using least squares method, for each frequency 
-between the first and the last observation. The better the periodic signal fits the data, the higher the power attributed to the frequency. 
-We used the LS periodogram in the linear polarization ($\sqrt{Q^2+U^2}$) and intensity signal first. 
+Trying to find periods in an astrophysical context can be difficult due to the unevenly spaced observed data. To overcome this issue, we used the Lomb-Scargle (LS) periodogram. For a given set of data, it fits a periodic signal using least squares method, for each frequency between the first and the last observation. The better the periodic signal fits the data, the higher the power attributed to the frequency. We used the LS periodogram in the linear polarization ($\sqrt{Q^2+U^2}$) and intensity signal first. 
 
 \begin{figure}[!h]
     \centering
