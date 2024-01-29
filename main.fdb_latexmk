@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1706032037 "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf" "main" 1706032038
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.aux" 1706032038 975 e72be4718b20a856bb1deb682da764b4 ""
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" 1706032036 11280 3f6aa1dadd6ecb8768fd4a97efd59554 ""
+["pdflatex"] 1706535223 "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf" "main" 1706535223
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.aux" 1706535223 1083 b6c72cd0b07180dfe627f9f5d06f394c ""
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" 1706535221 12815 b0fc32a8d8f5657f6b432b8094e946e9 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1480098696 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -117,11 +117,11 @@
   "LS Pl.png" 1703178694 79580 2e4b2d45ed901e15106f569e6c48e497 ""
   "LS stokes Q.png" 1703178694 81071 8d5201299f628cef2111911b16749571 ""
   "aa.cls" 1703178694 63263 f72bc882d377d24b944742febd5e720d ""
-  "main.aux" 1706032038 975 e72be4718b20a856bb1deb682da764b4 ""
-  "main.tex" 1706032036 11280 3f6aa1dadd6ecb8768fd4a97efd59554 ""
+  "main.aux" 1706535223 1083 b6c72cd0b07180dfe627f9f5d06f394c ""
+  "main.tex" 1706535221 12815 b0fc32a8d8f5657f6b432b8094e946e9 ""
   (generated)
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.log"
   "main.pdf"
   "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf"
-  "main.log"
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.log"
   "main.aux"
+  "main.log"
