@@ -122,44 +122,145 @@ magnetic field distributions over stellar surfaces and it is now used to produce
 of Betelgeuse and other red superg
 
 
+\subsection{Lomb-Scargle periodogram}
+
 Trying to find periods in an astrophysical context can be difficult due to the unevenly spaced observed data. To overcome this issue, 
-we used the Lomb-Scargle (LS) periodogram. For a given set of data, it fits a periodic signal using least squares method, for each frequency 
-between the first and the last observation. The better the periodic signal fits the data, the higher the power attributed to the frequency. 
-We used the LS periodogram in the linear polarization ($\sqrt{Q^2+U^2}$) and intensity signal first. 
+we used the Lomb-Scargle (LS) periodogram \citep{Lomb1976,Scargle1982}. For a given set of data, it fits a sinusoid function using least-squares at each 
+frequency between the first and the last observation. The better the fit, the higher the power attributed to the given frequency. Since Betelgeuse has 
+been observed by the Télescope Bennard Lyot at pic du midi since 2013, we have ten years of data. Betelgeuse was observed every two or three weeks by 
+the spectropolarimeters Narval and Neo-Narval, except during summer. From all these data, we can compute least-squared 
+deconvolution (LSD) \citep{Donati1997} profile of Stokes I, U and Q. The linear polarization present in Betelgeuse is attributed to brightness 
+inhomogeneities, which are due to the convective cells present at the surface \citep{LopezAriste2018}. To recover variability of Betelgeuse, 
+we computed the LS periodogram at each wavelength of the LSD profile, between -25 km/s and 80 km/s. We choose those velocity to span the entire 
+signal present in the LSD profile. In the work of \cite{LopezAriste2018}, the most blueshifted signal was present at -20 km/s, 
+corresponding to the maximal velocity of the rising plasma. The most redshifted signal was $\sim$ 40 km/s. This velocity corresponds 
+to the velocity of the star in our reference frame \citep{LopezAriste2018}. 
 
-\begin{figure}[!h]
+
+\subsection{Before and after the dimming}
+
+At the beginning of 2020, Betelgeuse reached a historical minimum in its luminosity, called the great dimming \citep{Guinan2020}. 
+From interferometric data, we know that this event was caused by a cloud of gas in front of the line of sight \citep{Montargès2021}. 
+Interferometric images show a huge drop in luminosity in the southern hemisphere of Betelgeuse, leading to this dimming. Interestingly, 
+it has been shown by \cite{jadlovsky2022} that the periodicity of Betelgeuse has changed before and after the dimming. Using the light curve from AAVSO, 
+the authors showed that before the dimming, the dominant period of Betelgeuse was around 400 days. However, after the dimming, this period has changed and 
+is now shorter, around 200 days. It means that, after the dimming, there was a change in the behaviour of the atmosphere of Betelgeuse: the period is now
+shorter than before the dimming. Our analysis is based on this change of periodicity. By computing the Lomb-Scargle periodogram for each frequency 
+in the LSD profile, we expect to find periodicities around the LSP, but also on the 400 days and 200 days period. However, we expect a change
+in the periodicity after the dimming. This would lead to a decrease in the Lomb-Scargle power. 
+Figure \ref{LS intensity},\ref{LS Q},\ref{LS U} and \ref{LS linear polarization} show the Lomb-Scargle periodogram of the LSD profile of respectively 
+the intensity, stokes Q, stokes U and the linear polarization. The abscissa is the frequency, while the ordinate is the heliocentric radial velocity. 
+For each figure, the upper panel is the LS periodogram with data taken before the great dimming of Betelgeuse, that is from 2013 to 2019. 
+The lower panel is the LS periodogram for the data before and after the dimming: from 2013 to 2023. The white dashed lines represent the different 
+periods found in the literature: the LSP at 2000 days, the fondamental pressure mode at 400 days and its first overtone at 200 days. The Lomb-Scargle 
+power is normalised. The colorbar indicates the quality of the fit: red areas correspond to good fits from the LS periodogram, those areas are good 
+candidates for periodicities. 
+
+\begin{figure*}[!h]
     \centering
-    \includegraphics[width=0.5\textwidth]{LS Intensity.png}
-    \caption{Lomb-Scargle periodogram of intensity over 10 years. Red regions represent high LS power (i.e most plausible frequencies) whereas blue regions stands for low LS power. }
-    \label{LS Intensity}
-\end{figure}
+    \includegraphics[width=\textwidth]{Lomb-Scargle Intensity.png}
+    \caption{Lomb-Scargle periodogram of the LSD profile of the intensity. The upper pannel is the LS periodogram for data before the great dimming. The lower panel is periodogram after the dimming. The ordinate refers to the velocity in the heliocentric radial velocity in km/s. The abscissa is the period in $\mathrm{days^{-1}}$. The three white dashed lines represent respectively (from left to right) the LSP at 2000 days, the 400 days period and its first overtone at 200 days. The Lomb-Scargle power refers to the quality of period found. }
+    \label{LS intensity}
+\end{figure*}
 
-Figure \ref{LS Intensity} shows the LS periodogram of intensity for each frequency between -25 km/s and 70 km/s. The white dashed lines reprent the three main sequences found in the literature i.e the LSP and its overtones at 400 days and 250 days. From the intensity signal, we recover the LSP around 2000 days. For lower frequencies (i.e periods higher than 2000 days), the signal is attributed to cross correlation. It appears that there is a small signal around $0.003 d^{-1}$ ($\sim 333$ days) but it is hard to affirm that it corresponds a net signal or noise. \\
-
-Figure \ref{LS Pl} shows the LS periodogram of linear polarization. We see that we find a strong power around a period of 400 days (second dashed line). In the linear polarization, the LSP does not appear in the LS periodogram. Hence, from the intensity and the linear polarization signal, we recover two of the three main periods found in Betelgeuse.Interestingly, the period around 250 days is present in the LS periodogram of stokes Q (see figure \ref{LS Q}) but not in stokes U. The nature of the differents periodicity is discussed in the next section, especially the one found in the linear polarization. 
-
-
-\begin{figure}[!h]
+\begin{figure*}[!h]
     \centering
-    \includegraphics[width=0.5\textwidth]{LS Pl.png}
-    \caption{Lomb-Scargle periodogram of linear polarization. The colour code is the same as figure \ref{LS Intensity}. }
-    \label{LS Pl}
-\end{figure}
+    \includegraphics[width=\textwidth]{Lomb-Scargle Stokes Q.png}
+    \caption{Same as figure \ref{LS intensity} but for stokes Q. }
+    \label{LS Q}
+\end{figure*}
+
+\begin{figure*}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Lomb-Scargle Stokes U.png}
+    \caption{Same as figure \ref{LS intensity}, but for stokes U.}
+    \label{LS U}
+\end{figure*}
+
+
+\begin{figure*}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Lomb-Scargle linear polarization.png}
+    \caption{Same as figure \ref{LS intensity}, but for the linear polarization: $\sqrt{\mathrm{Q^2}+\mathrm{U^2}}$.}
+    \label{LS linear polarization}
+\end{figure*}
+
+
+
+\section{Recovering periodicity of Betelgeuse in the LSD profile}
+
+\subsection{Intensity}
+Figure \ref{LS intensity} shows the LS periodogram of the LSD of the intensity profile. Interestingly, we recover the LSP at 2000 days, 
+located at a HRV of $\sim$ 20 km/s. This periodicity seems to change after the dimming, where it is located at a HRV between 0 and 10 km/s. 
+There is also a weaker signal at the fundamental mode, around 400 days. This signal completely disappears after the dimming. It is hard to attribute 
+this LS power to a periodicity of Betelgeuse, however it might be a hint that this periodicity has changed after the dimming. Furthermore, our results 
+in the intensity profile are consistent with the one from \cite{Mathias2018} who used 2D fourier analysis and found that the dominant period was the LSP. 
+We can also see that there is a less stronger signal at 40 km/s in the LSP. We will discuss about it in the next section, but the fact that there is a weak 
+signal at 40 km/s, which is the velocity of the star in the heliocentric reference frame, could be a clue to understand the periodicity of Betelgeuse. 
+The intensity is sensitive to the whole star, hence the periodogram of the intensity is sensitive to global variation of the star. It is sensitive to 
+the timescale on which giant convective cells evolve. It has been observed that some convective cells can live for more than two years. Even though the
+LSP is around five years, we can attribute the LSP to the number of convective cells during a given time. 
+
+
+\subsection{Stokes Q and U}
+
+Figure \ref{LS Q} and \ref{LS U} show the LS periodogram of both stokes Q and U. It is clear that the LS periodogram is completely different 
+from the intensity one. We can see a strong signal in fig. \ref{LS Q} around 200 days. Once again, this signal is much more weak after the dimming.
+Concerning stokes U in fig. \ref{LS U}, it appears that we only recover the LSP, which once again, is weaker after the great dimming. 
+Those periodograms rise a lot of questions: why is the 200 days period only present in stokes Q? Why not in stokes U or intensity? 
+We will discuss about those questions in the next question. However, it also appears that stokes Q is not sensitive to the LSP, or to be more precise, 
+it is much more sensitive to the 200 days period. From this, we can conclude that stokes Q evolves on a time scale much more closer to the first overtone 
+mode than the LSP or even the fundamental mode. Because stokes Q is sensitive only to shorter periods, the variation of stokes Q come from another mechanism 
+than the one from intensity. Because the linear polarization in Betelgeuse is due to convective cells, we attribute the signal present in the periodogram 
+as the lifetime of convective cells. This is what we observe in the LSD profile of Betelgeuse: from a week to another it does not change that much. 
+However, after a few month, the LSD profile of Betelgeuse has completely changed, due to the evolution of convective cells at the surface. 
+This would explain the strong signal present at 200 days in stokes Q. 
+
+
+\subsection{The linear polarization}
+
+Figure \ref{LS linear polarization} shows the LS periodogram of the linear polarization of Betelgeuse: $\sqrt{\mathrm{Q^2+U^2}}$. 
+Interestingly, the LS periodogram shows a strong power at 400 days and 2000 days. This signal is much more weaker after the dimming.
+While the LSP is already present in the LS of intensity, here we recover the 400 days periodicity, often invoke in the literature. 
+Nonetheless, the period is present at a HRV of around 40 km/s. We recall that this velocity is the velocity of the star \cite{LopezAriste2018}. 
+Every signal above the velocity of the star is either due to the plasma sinking in Betelgeuse, or plumes of plasma rising above the limb of the star, 
+as seen in other red supergiant like $\mu$Cep \citep{LopezAriste2023}. Up to this point, we want to pinpoint the two elements that are a clue 
+to understand the variability of Betelgeuse: the 400 days period is present in the linear polarization signal and also at a HRV above 40 km/s.
+In any case, from the linear polarization and the intensity profile, we recover the different periods of Betelgeuse.
+
 
 \section{Convection to explain periodicities}
 
-In the previous section, we have seen that we recover the different periods of Betelgeuse from the intensity and linear polarization signal. While the nature of the LSP is still in debate, the nature of the lower periods is attributed to pulsation of the atmosphere of Betelgeuse. However, the mechanism behind the pulsation of Betelgeuse is less clear. In this section, we attempt to find an explanation to the 400 days periodicity of Betelgeuse. As mentioned before, the LS periodogram of linear polarization shows a periodicity around 400 days. Furthermore, the region where the LS power is high is around a wavelength of 40km/s. This wavelength correspond to the red wing of Betelgeuse. The polarization signal is supposed to stand between -20 and 40km/s. Signal above 40km/s is associated to plasma rising behind the limb of Betelgeuse. Hence, the strong power associated at this wavelength might be due to those convective plumes that are rising above the limb from time to time. From this scenario, we can explained the 400 days period in the light curve as follow: from time to time, Betelgeuse is ejecting plasma in the interstellar medium. Sometime, the plasma is ejected behind Betelgeuse, but rises so high that we can see the rising plume from Earth. This plume increases the number of photons that come to the Earth, leading to an increase of the brightness. After a few weeks or months, the plumes fall back to Betelgeuse, decreasing the brightness of Betelgeuse. This would explain why we recover the 400 days periodicity from linear polarization. 
-
-
-
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{LS stokes Q.png}
-    \caption{stokes Q}
-    \label{LS Q}
-\end{figure}
-
+In the previous section, we have seen that we recover the different period of Betelgeuse from the intensity and linear polarization signal. 
+While the nature of the LSP is still in debate, the nature of the lower periods is attributed to pulsation of the atmosphere of Betelgeuse 
+(e.g \cite{Kiss2006}). The mechanism behind the pulsation of Betelgeuse is attributed to the $\kappa$-mechanism. In this section, we attempt to 
+find an explanation to the 400 days periodicity of Betelgeuse. As mentioned before, the LS periodogram of linear polarization shows a periodicity 
+around 400 days. Furthermore, the region where the LS power is high around 40km/s. This wavelength correspond to the red wing of Betelgeuse.
+The polarization signal is supposed to stand between -20 and 40km/s. Signal above 40km/s is associated to plasma rising behind the limb of Betelgeuse. 
+This mechanism has been observed in the RSG $\mu$Cep and was introduced by \cite{LopezAriste2023} to explain the excess of linear polarization beyond 
+the velocity of the star. In $\mu$Cep, the linear polarization signal is very strong and often present, whereas in Betelgeuse, the signal above the 
+velocity of the star is less strong. However, because it is present from time to time, the LS periodogram finds this signal above the limb and finds a
+periodicity at this wavelength of 40 km/s. Hence, the strong power associated to this wavelength might be due to those convective plumes that are 
+rising above the limb from time to time. From this scenario, we can explained the 400 days period in the light curve as follow: from time to time,
+Betelgeuse is ejecting plasma in the interstellar medium due to winds. The plasma can be ejected from the hidden face of Betelgeuse. 
+It rises so high that we can see the rising plume from the Earth, because the plume rises above the limb of the star. Hence, from Earth, 
+the signal associated to this plume appears redshifted compared to the velocity of the star. This plume increases the number of photons that we receive,
+leading to an increase of the brightness. After a few weeks or months, the plume falls back to Betelgeuse, desapearing from our point of view, 
+leading to a decrease of the brightness of Betelgeuse. This is exactly what we see is the LSD profile of the linear polarization of Betelgeuse: 
+from time to time, there is a net signal above 40km/s, which is present for a few weeks, and then disappears. Since this signal is not always present, 
+it is found by the LS periodogram as a periodic event. However, it is not periodic at all: because the plumes rise at random moments, sometimes they 
+appear every years, sometime more often. This would explain why we only see it before the dimming, after the dimming, this kind of event never happened 
+for the moment. Thus, the LS periodogram, at that precise frequency, finds that there is a periodic signal before the dimming, but not after, leading to
+a lower LS power at this frequency. Concerning the 200 days period, it is caused by the timescale on which the stokes parameters evolve. For example, the 
+LSD profile of stokes Q or U will slightly change if we observe Betelgeuse every two weeks. However, on a longer timescale, for example a few month, 
+the LSD profile of stokes Q and U will change a lot. They are directly linked to the dynamics of the surface, hence,  their variation scale the lifetime 
+of convective cells. Some convective cells can live up to a few month, leading to this peak in the LS periodogram of stokes Q. As showed by
+\cite{LopezAriste2018}, some convective cells can live up to years, explaining also the LSP. One can notice that the peak is not present in stokes U. 
+However, if we try to explain the periodicity of Betelgeuse using pulsations, we would see this signal in either stokes U and the linear polarization. 
+To summarise what we have done so far: we were able to explain the variability of Betelgeuse by using surface convection only. The convective cells play 
+the most important role in the variability of Betelgeuse. Our work does not need pulsation to explain its variability. This does not mean that there are 
+no pulsation in Betelgeuse. What we claim is that the most important factor in the variability of Betelgeuse is the timescale on which the convective 
+cells evolve. Pulsation could exist on Betelgeuse, but probably on shorter timescale than the one observed. 
 
 
 \end{document}
