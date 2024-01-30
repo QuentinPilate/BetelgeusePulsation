@@ -1,0 +1,30 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
+  L{\`e}bre, Josselin, Montarg{\`e}s, Petit, Chiavassa, Paletou, Fabas,
+  Konstantinova-Antova, Donati, Grunhut, Wade, Herpin, Kervella, Perrin, \&
+  Tessore}]{auriere_discovery_2016}
+Auri{\`e}re, M., L{\'o}pez~Ariste, A., Mathias, P., {et~al.} 2016, Astronomy
+  and Astrophysics, 591, A119
+
+\bibitem[{Donati {et~al.}(1997)Donati, Semel, Carter, Rees, \&
+  Collier~Cameron}]{donati_spectropolarimetric_1997}
+Donati, J.-F., Semel, M., Carter, B.~D., Rees, D.~E., \& Collier~Cameron, A.
+  1997, Monthly Notices of the Royal Astronomical Society, 291, 658
+
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2022)L{\'o}pez~Ariste, Georgiev, Mathias,
+  L{\`e}bre, Wavasseur, Josselin, Konstantinova-Antova, \&
+  Roudier}]{lopez_ariste_three-dimensional_2022}
+L{\'o}pez~Ariste, A., Georgiev, S., Mathias, P., {et~al.} 2022,
+  Three-dimensional imaging of convective cells in the photosphere of
+  {Betelgeuse}, Tech. rep., publication Title: arXiv e-prints ADS Bibcode:
+  2022arXiv220212011L Type: article
+
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2018)L{\'o}pez~Ariste, Mathias, Tessore,
+  L{\`e}bre, Auri{\`e}re, Petit, Ikhenache, Josselin, Morin, \&
+  Montarg{\`e}s}]{lopez_ariste_convective_2018}
+L{\'o}pez~Ariste, A., Mathias, P., Tessore, B., {et~al.} 2018, Astronomy and
+  Astrophysics, 620, A199
+
+\end{thebibliography}
