@@ -150,7 +150,11 @@ power is normalised. The colorbar indicates the quality of the fit: red areas co
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle Intensity.png}
-    \caption{Lomb-Scargle periodogram of the LSD profile of intensity. The upper pannel is the LS periodogram for data before the great dimming while the lower panel is the periodogram from the all dataset. The ordinate refers to the velocity in the heliocentric radial velocity in km/s. The abscissa is the period in $\mathrm{days^{-1}}$. The three white dashed lines represent respectively (from left to right) the LSP at 2000 days, the 400 days period and its first overtone at 200 days. The Lomb-Scargle power refers to the quality of the fit from the LS periodogram. }
+    \caption{Lomb-Scargle periodogram of the LSD profile of intensity. 
+    The upper pannel is the LS periodogram for data before the great dimming while the lower panel is the periodogram from the all dataset.
+    The ordinate refers to the velocity in the heliocentric radial velocity in km/s. The abscissa is the period in $\mathrm{days^{-1}}$. 
+    The three white dashed lines represent respectively (from left to right) the LSP at 2000 days, the 400 days period and its first overtone at 200 days. 
+    The Lomb-Scargle power refers to the quality of the fit from the LS periodogram. }
     \label{LS intensity}
 \end{figure}
 
@@ -218,16 +222,39 @@ In any case, from the linear polarization and the intensity profile, we recover 
 
 \subsection{The variability of Betelgeuse inferred from polarimetry imaging}
 
-Using linear polarization, \cite{lopez_ariste_convective_2018} has been able to reconstruct images of Betelgeuse that have been sucessfully compared to inteferometric images of \cite{montarges_close_2016}. The images are produced by finding the brightness distribution that better fits the observed linear polarization LSD profile using Marquardt-Levemberg minimisation \citep{lopez_ariste_convective_2018}. Because Betelgeuse is observed every two weeks by the TBL, we were able to follow its surface activity through polarimetry imaging. This allowed us to estimate the size and the life time of the convective cells at the surface. From our images, we computed a quantity called the photo-center, which is sensitive to the size and the number of convective cells. An homogeneous star will have a photo-center displacement close to the barycenter of the star, whereas a star with one or two huge convective cells will have a photo-center displacement more important, up to a few percent of the stellar radius. Because the photo-center is linked to surface convection, our idea was to compute the LS periodogram of the displacement of the photo-center. If we recover the different periods from our images, we would be able to explain them with only convection. However, before going further, we have to be carefull with the interpretation of our images. Linear polarization suffers from a $180 ^\circ$ degree ambiguity already mentioned in \cite{auriere_discovery_2016}. For that reason, our images can be rotated by $180^\circ$ degree, and the brightness distribution will still fit the observed LSD profile. Thus, to obtain a continuity between our images, for a given day, we use the brightness distribution of the previous day as the starting point of the fit. For the first image, we start with a random brightness distribution as the starting point. Even though we are able to produce images which are consistent with each other, it is important to keep in mind that the photo-center displacement will be affected by the choice of the first image. To overcome this issue, we decided to compute the photo-center displacement with 100 different initial parameters. So that we recover properties that are independent of the choice of the first image. 
+Using linear polarization, \cite{lopez_ariste_convective_2018} has been able to reconstruct images of Betelgeuse that have been sucessfully compared 
+to inteferometric images of \cite{montarges_close_2016}. The images are produced by finding the brightness distribution that better fits the observed linear 
+polarization LSD profile using Marquardt-Levemberg minimisation \citep{lopez_ariste_convective_2018}. Because Betelgeuse is observed every two weeks by the TBL,
+we were able to follow its surface activity through polarimetry imaging. This allowed us to estimate the size and the life time of the convective cells
+at the surface. From our images, we computed a quantity called the photo-center, which is sensitive to the size and the number of convective cells. 
+An homogeneous star will have a photo-center displacement close to the barycenter of the star, whereas a star with one or two huge convective cells will have a
+photo-center displacement more important, up to a few percent of the stellar radius. Because the photo-center is linked to surface convection, 
+our idea was to compute the LS periodogram of the displacement of the photo-center. If we recover the different periods from our images, we would
+be able to explain them with only convection. However, before going further, we have to be carefull with the interpretation of our images. 
+Linear polarization suffers from a $180 ^\circ$ degree ambiguity already mentioned in \cite{auriere_discovery_2016}. For that reason, our images can be 
+rotated by $180^\circ$ degree, and the brightness distribution will still fit the observed LSD profile. Thus, to obtain a continuity between our images, 
+for a given day, we use the brightness distribution of the previous day as the starting point of the fit. For the first image, we start with a 
+random brightness distribution as the starting point. Even though we are able to produce images which are consistent with each other, it is important 
+to keep in mind that the photo-center displacement will be affected by the choice of the first image. To overcome this issue, we decided to compute
+the photo-center displacement with 100 different initial parameters. So that we recover properties that are independent of the choice of the first image. 
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle Photo-center.png}
-    \caption{Lomb-Scargle periodogram of the 100 photo-center displacement of Betelgeuse. Each blue curve corresponds to a LS periodogram of one photo-center displacement. The black line is the average of the 100 LS periodogram. The black dashed lines represent the 2000, 400 and 200 days period respectively (from left to right). The upper panel is the LS from data before the dimming. The lower panel is the LS from the all dataset, including data after the great dimming. }
+    \caption{Lomb-Scargle periodogram of the 100 photo-center displacement of Betelgeuse. Each blue curve corresponds to a LS periodogram of one photo-center
+     displacement. The black line is the average of the 100 LS periodogram. The black dashed lines represent the 2000, 400 and 200 days period respectively 
+     (from left to right). The upper panel is the LS from data before the dimming. The lower panel is the LS from the all dataset, 
+     including data after the great dimming. }
     \label{LS photocenter}
 \end{figure}
 
-Figure \ref{LS photocenter} shows the LS periodogram of each photo-center displacement (blue lines) and the average photo-center displacement (black line). The upper panel is the LS from data before the great dimming of Betelgeuse, whereas the lower panel is the LS for the all set of data, including after the dimming. The black dashed lines are the 2000, 400 and 200 days period respectively. First, we find the the LS power is high around the LSP. We can also notice a decrease in the Lomb-Scargle power before and after the dimming. It appears that there are two smalls bumps around the 400 days period. Those bumps almost disappear after the dimming. Even though it is hard to attribute the 400 days variability to those bumps, from polarimetry imaging, we still find that there is a difference before and after the dimming. However, in our case, our images only involve surface convection. The photo-center displacement is pointing toward a variability explained by surface convection. 
+Figure \ref{LS photocenter} shows the LS periodogram of each photo-center displacement (blue lines) and the average photo-center displacement (black line). 
+The upper panel is the LS from data before the great dimming of Betelgeuse, whereas the lower panel is the LS for the all set of data, 
+including after the dimming. The black dashed lines are the 2000, 400 and 200 days period respectively. First, we find the the LS power is high around the LSP.
+We can also notice a decrease in the Lomb-Scargle power before and after the dimming. It appears that there are two smalls bumps around the 400 days period. 
+Those bumps almost disappear after the dimming. Even though it is hard to attribute the 400 days variability to those bumps, from polarimetry imaging,
+we still find that there is a difference before and after the dimming. However, in our case, our images only involve surface convection.
+The photo-center displacement is pointing toward a variability explained by surface convection. 
 
 
 
@@ -269,7 +296,21 @@ cells evolve. Pulsation could exist on Betelgeuse, but probably on shorter times
 
 \subsection{The light curve of Betelgeuse}
 
-In the literature, it is reported that before the great dimming, the main period of Betelgeuse was 400 days \citep{kiss_variability_2006}. This pulsation is associated to the fundamental model of pressure modes. After the dimming, this period is shorter and is now around 200 days, associated to the first overtone of the fundamental mode. However, there are no explanations concerning this change of variability due to the dimming. Using the data from AAVSO, we studied the light curve of Betelgeuse. Figure \ref{light curve Betelgeuse} shows the light curve of Betelgeuse in the visible, during and after the great dimming. After the dimming, the variability of Betelgeuse has changed. It is clear from fig. \ref{light curve Betelgeuse} that the variability of Betelgeuse is evolving on a timescale shorter than one year. However, from middle 2023 up to now, the magnitude of Betelgeuse remains almost constant, which is not consistent with a pulsating scenario. The constant magnitude of Betelgeuse points toward another scenario than pulsation. Using surface convection, we can fully explain the variability of Betelgeuse. The oscillations in the light curve are due to two mechanisms: surface convection and rising plumes of plasma beyond the limb of the star. This last mechanism being random, it happens from time to time. The timescale on which convective cells evolve is between one and two years, which is also consistent with the 400 days period found in the literature.  After the dimming, the change of periodicity in the light curve is explained by surface convection, the random variation of brightness distribution could lead to the 200 days periodicity found in the literature. The constant brightness of Betelgeuse for the last 6 months is explainable by the same random brightness distribution: the surface of Betelgeuse is calm, leading to this constant brightness. In the future, we expect to see the light curve of Betelgeuse to change, maybe with another main period, but which is in fact caused by surface convection. Thus, the main mechanism in the variability of Betelgeuse is surface convection, which is sufficient to explain the variation in the magnitude of Betelgeuse.  
+In the literature, it is reported that before the great dimming, the main period of Betelgeuse was 400 days \citep{kiss_variability_2006}. 
+This pulsation is associated to the fundamental model of pressure modes. After the dimming, this period is shorter and is now around 200 days, 
+associated to the first overtone of the fundamental mode. However, there are no explanations concerning this change of variability due to the dimming.
+Using the data from AAVSO, we studied the light curve of Betelgeuse. Figure \ref{light curve Betelgeuse} shows the light curve of Betelgeuse in the visible, 
+during and after the great dimming. After the dimming, the variability of Betelgeuse has changed. It is clear from fig. \ref{light curve Betelgeuse} that the 
+variability of Betelgeuse is evolving on a timescale shorter than one year. However, from middle 2023 up to now, the magnitude of Betelgeuse remains almost 
+constant, which is not consistent with a pulsating scenario. The constant magnitude of Betelgeuse points toward another scenario than pulsation. Using surface 
+convection, we can fully explain the variability of Betelgeuse. The oscillations in the light curve are due to two mechanisms: surface convection and rising 
+plumes of plasma beyond the limb of the star. This last mechanism being random, it happens from time to time. The timescale on which convective cells evolve
+is between one and two years, which is also consistent with the 400 days period found in the literature.  After the dimming, the change of periodicity in the
+light curve is explained by surface convection, the random variation of brightness distribution could lead to the 200 days periodicity found in the literature. 
+The constant brightness of Betelgeuse for the last 6 months is explainable by the same random brightness distribution: the surface of Betelgeuse is calm, 
+leading to this constant brightness. In the future, we expect to see the light curve of Betelgeuse to change, maybe with another main period, but which 
+is in fact caused by surface convection. Thus, the main mechanism in the variability of Betelgeuse is surface convection, which is sufficient to explain the 
+variation in the magnitude of Betelgeuse.  
 
 
 \begin{figure}[!h]
