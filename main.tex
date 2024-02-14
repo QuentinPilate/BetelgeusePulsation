@@ -135,13 +135,19 @@ PolarBase (http://polarbase.irap.omp.eu/).}
 \subsection{Lomb-Scargle periodogram}
 
 Trying to find periods in an astrophysical context can be difficult due to the unevenly spaced observed data. To overcome this issue, 
-we used the Lomb-Scargle (LS) periodogram \citep{Lomb1976,Scargle1982}. For a given set of data, it fits a sinusoid function using least-squares at each 
-frequency between the first and the last observation. The better the fit, the higher the power attributed to the given frequency. Since Betelgeuse has 
-been observed by the Télescope Bennard Lyot at pic du midi since 2013, we have ten years of data. Betelgeuse was observed every two or three weeks by 
+we used the Lomb-Scargle (LS) periodogram \citep{Lomb1976,Scargle1982}. For a given set of data, it fits a sinusoid function using 
+least-squares at each 
+frequency between the first and the last observation. The better the fit, the higher the power attributed to the given frequency. Since 
+Betelgeuse has 
+been observed by the Télescope Bennard Lyot at pic du midi since 2013, we have ten years of data. Betelgeuse was observed every two or 
+three weeks by 
 the spectropolarimeters Narval and Neo-Narval, except during summer. From all these data, we can compute least-squared 
-deconvolution (LSD) \citep{Donati1997} profile of Stokes I, U and Q. The linear polarization present in Betelgeuse is attributed to brightness 
-inhomogeneities, which are due to the convective cells present at the surface \citep{LopezAriste2018}. To recover variability of Betelgeuse, 
-we computed the LS periodogram at each wavelength of the LSD profile, between -25 km/s and 80 km/s. We choose those velocity to span the entire 
+deconvolution (LSD) \citep{Donati1997} profile of Stokes I, U and Q. The linear polarization present in Betelgeuse is attributed to 
+brightness 
+inhomogeneities, which are due to the convective cells present at the surface \citep{LopezAriste2018}. To recover variability of 
+Betelgeuse, 
+we computed the LS periodogram at each wavelength of the LSD profile, between -25 km/s and 80 km/s. We choose those velocity to span the 
+entire 
 signal present in the LSD profile. In the work of \cite{LopezAriste2018}, the most blueshifted signal was present at -20 km/s, 
 corresponding to the maximal velocity of the rising plasma. The most redshifted signal was $\sim$ 40 km/s. This velocity corresponds 
 to the velocity of the star in our reference frame \citep{LopezAriste2018}. 

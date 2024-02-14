@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
@@ -26,5 +26,12 @@ L{\'o}pez~Ariste, A., Georgiev, S., Mathias, P., {et~al.} 2022,
   Montarg{\`e}s}]{lopez_ariste_convective_2018}
 L{\'o}pez~Ariste, A., Mathias, P., Tessore, B., {et~al.} 2018, Astronomy and
   Astrophysics, 620, A199
+
+\bibitem[{Mathias {et~al.}(2018)Mathias, Auri{\`e}re, L{\'o}pez~Ariste, Petit,
+  Tessore, Josselin, L{\`e}bre, Morin, Wade, Herpin, Chiavassa, Montarg{\`e}s,
+  Konstantinova-Antova, Kervella, Perrin, Donati, \&
+  Grunhut}]{mathias_evolution_2018}
+Mathias, P., Auri{\`e}re, M., L{\'o}pez~Ariste, A., {et~al.} 2018, ArXiv
+  e-prints, arXiv:1804.01831
 
 \end{thebibliography}
