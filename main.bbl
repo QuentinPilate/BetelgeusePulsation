@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
@@ -8,10 +8,34 @@
 Auri{\`e}re, M., L{\'o}pez~Ariste, A., Mathias, P., {et~al.} 2016, Astronomy
   and Astrophysics, 591, A119
 
+\bibitem[{Chiavassa {et~al.}(2022)Chiavassa, Kudritzki, Davies, Freytag, \&
+  De~Mink}]{chiavassa_probing_2022}
+Chiavassa, A., Kudritzki, R., Davies, B., Freytag, B., \& De~Mink, S.~E. 2022,
+  Astronomy \& Astrophysics, 661, L1
+
 \bibitem[{Donati {et~al.}(1997)Donati, Semel, Carter, Rees, \&
   Collier~Cameron}]{donati_spectropolarimetric_1997}
 Donati, J.-F., Semel, M., Carter, B.~D., Rees, D.~E., \& Collier~Cameron, A.
   1997, Monthly Notices of the Royal Astronomical Society, 291, 658
+
+\bibitem[{Dupree {et~al.}(2022)Dupree, Strassmeier, Calderwood, Granzer, Weber,
+  Kravchenko, Matthews, Montargès, Tappin, \& Thompson}]{dupree_great_2022}
+Dupree, A.~K., Strassmeier, K.~G., Calderwood, T., {et~al.} 2022, The
+  Astrophysical Journal, 936, 18
+
+\bibitem[{Guinan {et~al.}(2020)Guinan, Wasatonic, Calderwood, \&
+  Carona}]{guinan_fall_2020}
+Guinan, E., Wasatonic, R., Calderwood, T., \& Carona, D. 2020, The Astronomer's
+  Telegram, 13512, 1, aDS Bibcode: 2020ATel13512....1G
+
+\bibitem[{Jadlovský {et~al.}(2023)Jadlovský, Krtička, Paunzen, \&
+  Štefl}]{jadlovsky_analysis_2023}
+Jadlovský, D., Krtička, J., Paunzen, E., \& Štefl, V. 2023, New Astronomy,
+  99, 101962
+
+\bibitem[{Lomb(1976)}]{lomb_least-squares_1976}
+Lomb, N.~R. 1976, Astrophysics and Space Science, 39, 447, aDS Bibcode:
+  1976Ap\&SS..39..447L
 
 \bibitem[{L{\'o}pez~Ariste {et~al.}(2022)L{\'o}pez~Ariste, Georgiev, Mathias,
   L{\`e}bre, Wavasseur, Josselin, Konstantinova-Antova, \&
@@ -27,11 +51,33 @@ L{\'o}pez~Ariste, A., Georgiev, S., Mathias, P., {et~al.} 2022,
 L{\'o}pez~Ariste, A., Mathias, P., Tessore, B., {et~al.} 2018, Astronomy and
   Astrophysics, 620, A199
 
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2023)L{\'o}pez~Ariste, Wavasseur, Mathias,
+  L{\`e}bre, Tessore, \& Georgiev}]{lopez_ariste_height_2023}
+L{\'o}pez~Ariste, A., Wavasseur, M., Mathias, P., {et~al.} 2023, Astronomy and
+  Astrophysics, 670, A62, aDS Bibcode: 2023A\&A...670A..62L
+
 \bibitem[{Mathias {et~al.}(2018)Mathias, Auri{\`e}re, L{\'o}pez~Ariste, Petit,
   Tessore, Josselin, L{\`e}bre, Morin, Wade, Herpin, Chiavassa, Montarg{\`e}s,
   Konstantinova-Antova, Kervella, Perrin, Donati, \&
   Grunhut}]{mathias_evolution_2018}
 Mathias, P., Auri{\`e}re, M., L{\'o}pez~Ariste, A., {et~al.} 2018, ArXiv
   e-prints, arXiv:1804.01831
+
+\bibitem[{Montargès {et~al.}(2021)Montargès, Cannon, Lagadec, de~Koter,
+  Kervella, Sanchez-Bermudez, Paladini, Cantalloube, Decin, Scicluna,
+  Kravchenko, Dupree, Ridgway, Wittkowski, Anugu, Norris, Rau, Perrin,
+  Chiavassa, Kraus, Monnier, Millour, Le~Bouquin, Haubois, Lopez, Stee, \&
+  Danchi}]{montarges_dusty_2021}
+Montargès, M., Cannon, E., Lagadec, E., {et~al.} 2021, Nature, 594, 365,
+  number: 7863 Publisher: Nature Publishing Group
+
+\bibitem[{Montargès {et~al.}(2016)Montargès, Kervella, Perrin, Chiavassa,
+  Le~Bouquin, Aurière, López~Ariste, Mathias, Ridgway, Lacour, Haubois, \&
+  Berger}]{montarges_close_2016}
+Montargès, M., Kervella, P., Perrin, G., {et~al.} 2016, Astronomy \&
+  Astrophysics, 588, A130
+
+\bibitem[{Scargle(1982)}]{scargle_studies_1982}
+Scargle, J.~D. 1982, The Astrophysical Journal, 263, 835
 
 \end{thebibliography}

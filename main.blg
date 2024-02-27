@@ -4,59 +4,48 @@ The top-level auxiliary file: main.aux
 The style file: aa.bst
 Database file #1: art75.bib
 Warning--I didn't find a database entry for "XXX"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Miguel"
-Warning--I didn't find a database entry for "Lomb1976"
-Warning--I didn't find a database entry for "Scargle1982"
-Warning--I didn't find a database entry for "Donati1997"
-Warning--I didn't find a database entry for "LopezAriste2018"
-Warning--I didn't find a database entry for "Guinan2020"
-Warning--I didn't find a database entry for "Montargès2021"
-Warning--I didn't find a database entry for "jadlovsky2022"
-Warning--I didn't find a database entry for "Mathias2018"
-Warning--I didn't find a database entry for "LopezAriste2023"
-Warning--I didn't find a database entry for "Kiss2006"
+Warning--I didn't find a database entry for "kiss_variility_2006"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty institution in lopez_ariste_three-dimensional_2022
-You've used 5 entries,
+You've used 14 entries,
             3039 wiz_defined-function locations,
-            716 strings with 6650 characters,
-and the built_in function-call counts, 4377 in all, are:
-= -- 330
-> -- 534
-< -- 0
-+ -- 179
-- -- 174
-* -- 419
-:= -- 817
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 80
-chr.to.int$ -- 5
-cite$ -- 6
-duplicate$ -- 91
-empty$ -- 143
-format.name$ -- 185
-if$ -- 853
+            756 strings with 8990 characters,
+and the built_in function-call counts, 10414 in all, are:
+= -- 805
+> -- 1188
+< -- 2
++ -- 408
+- -- 384
+* -- 972
+:= -- 1946
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 190
+chr.to.int$ -- 14
+cite$ -- 15
+duplicate$ -- 258
+empty$ -- 377
+format.name$ -- 414
+if$ -- 2026
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 4
-newline$ -- 19
-num.names$ -- 20
-pop$ -- 77
+missing$ -- 13
+newline$ -- 46
+num.names$ -- 56
+pop$ -- 173
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 184
 quote$ -- 0
-skip$ -- 90
+skip$ -- 234
 stack$ -- 0
-substring$ -- 142
+substring$ -- 349
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 45
+type$ -- 126
 warning$ -- 1
-while$ -- 19
+while$ -- 55
 width$ -- 0
-write$ -- 53
-(There were 14 warnings)
+write$ -- 147
+(There were 3 warnings)

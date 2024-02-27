@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1706627089 "main.aux" "main.bbl" "main" 1706693078
+["bibtex main"] 1709055030 "main.aux" "main.bbl" "main" 1709055032
   "./aa.bst" 1703178694 32101 d07be6eccf1293b463b353311acc9bc2 ""
-  "art75.bib" 1706610676 27565 63b6822a2bd92b22b506328f5bc6ad10 ""
-  "main.aux" 1706693078 3874 edc0f6dee98207ec323487585ef61416 ""
+  "art75.bib" 1707912498 45402 3854c143ddceaaaad27df5d57c8f8723 ""
+  "main.aux" 1709055032 6120 caa5b7f7846a7e8af9076788a3989b39 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1706693076 "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf" "main" 1706693078
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.aux" 1706693078 3874 edc0f6dee98207ec323487585ef61416 ""
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" 1706693076 24060 efb6f7c7916b6cc07a10fb5824ab27fc ""
+["pdflatex"] 1709055030 "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf" "main" 1709055032
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.aux" 1709055032 6120 caa5b7f7846a7e8af9076788a3989b39 ""
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" 1709055028 37530 762a1666c600452ef8a9bbef72351ec4 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1480098696 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -128,17 +128,19 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1541516735 4220280 96bf40662b406b610155d4b5c9070bf2 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "Light_curve_Betelgeuse.png" 1707912498 100258 5492be4b15955aed7859860ae1267225 ""
   "Lomb-Scargle Intensity.png" 1706535358 642031 21e662b9aae41cb9b00b3692c29e63e9 ""
+  "Lomb-Scargle Photo-center.png" 1707912498 469153 1fcbfc47bf7fa3f30b63dc59f2bb8daf ""
   "Lomb-Scargle Stokes Q.png" 1706535358 859340 68b444a3053d5564e86c5c2f2f9e39e9 ""
   "Lomb-Scargle Stokes U.png" 1706535358 669530 8fe141bd6df9838d8ea08d3def642b51 ""
   "Lomb-Scargle linear polarization.png" 1706535358 774849 81db83ae6fb24c05f301dcd62d9a5044 ""
   "aa.cls" 1703178694 63263 f72bc882d377d24b944742febd5e720d ""
-  "main.aux" 1706693078 3874 edc0f6dee98207ec323487585ef61416 ""
-  "main.bbl" 1706627089 1826 58d1b791b12b416708831b140c06f750 "bibtex main"
-  "main.tex" 1706693076 24060 efb6f7c7916b6cc07a10fb5824ab27fc ""
+  "main.aux" 1709055032 6120 caa5b7f7846a7e8af9076788a3989b39 ""
+  "main.bbl" 1709055030 4006 9f43e3aa6aa1dfc04223a2465d106188 "bibtex main"
+  "main.tex" 1709055028 37530 762a1666c600452ef8a9bbef72351ec4 ""
   (generated)
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf"
+  "main.aux"
+  "main.log"
   "/Users/art2/0art/art75/BetelgeusePulsation/main.log"
   "main.pdf"
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf"
-  "main.log"
-  "main.aux"
