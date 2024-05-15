@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  15 MAY 2024 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  15 MAY 2024 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,65 +513,65 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 48.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 48.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 48.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 48.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 48.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 48.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txss on input line 48.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 50.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 48.
+(Font)              scaled to size 16.41594pt on input line 50.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 48.
+(Font)              scaled to size 16.41594pt on input line 50.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 48.
+(Font)              scaled to size 8.54997pt on input line 50.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 48.
+(Font)              scaled to size 8.54997pt on input line 50.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 52.
+(Font)              scaled to size 10.40245pt on input line 54.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 52.
+(Font)              scaled to size 10.40245pt on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--61
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 68--89
+Underfull \hbox (badness 1087) in paragraph at lines 70--91
 \T1/txr/m/n/10 has con-tinue its ran-dom vari-a-tion of bright-ness. But quite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--89
+Underfull \hbox (badness 10000) in paragraph at lines 70--91
 
  []
 
@@ -582,104 +582,100 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 [][]\T1/txr/m/n/9 Beyond a 2-year pro-pri-etary em-bargo, and up to tech-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \T1/txr/m/n/9 ni-cal is-sues, all these data is avail-able through Po-lar-Base
  []
 
-
-Underfull \vbox (badness 3088) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 140.
+(Font)              scaled to size 9.49997pt on input line 142.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 140.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 142.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 140.
+(Font)              scaled to size 9.49997pt on input line 142.
 
+LaTeX Warning: File `Lomb-Scargle Intensity.pdf' not found on input line 164.
 
-LaTeX Warning: File `Lomb-Scargle Intensity.pdf' not found on input line 162.
-
-<Lomb-Scargle Intensity.pdf, id=12, 1084.05pt x 686.565pt>
+<Lomb-Scargle Intensity.pdf, id=14, 1084.05pt x 686.565pt>
 File: Lomb-Scargle Intensity.pdf Graphic file (type pdf)
 <use Lomb-Scargle Intensity.pdf>
-Package pdftex.def Info: Lomb-Scargle Intensity.pdf  used on input line 162.
+Package pdftex.def Info: Lomb-Scargle Intensity.pdf  used on input line 164.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 162--165
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 164--167
  [] 
  []
 
 
-LaTeX Warning: File `Lomb-Scargle Stokes Q.pdf' not found on input line 171.
+LaTeX Warning: File `Lomb-Scargle Stokes Q.pdf' not found on input line 173.
 
-<Lomb-Scargle Stokes Q.pdf, id=13, 1084.05pt x 686.565pt>
+<Lomb-Scargle Stokes Q.pdf, id=15, 1084.05pt x 686.565pt>
 File: Lomb-Scargle Stokes Q.pdf Graphic file (type pdf)
 <use Lomb-Scargle Stokes Q.pdf>
-Package pdftex.def Info: Lomb-Scargle Stokes Q.pdf  used on input line 171.
+Package pdftex.def Info: Lomb-Scargle Stokes Q.pdf  used on input line 173.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 171--172
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 173--174
  [] 
  []
 
 [2 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Intensity.pdf>]
 
-LaTeX Warning: File `Lomb-Scargle Stokes U.pdf' not found on input line 178.
+LaTeX Warning: File `Lomb-Scargle Stokes U.pdf' not found on input line 180.
 
-<Lomb-Scargle Stokes U.pdf, id=56, 1084.05pt x 686.565pt>
+<Lomb-Scargle Stokes U.pdf, id=57, 1084.05pt x 686.565pt>
 File: Lomb-Scargle Stokes U.pdf Graphic file (type pdf)
 <use Lomb-Scargle Stokes U.pdf>
-Package pdftex.def Info: Lomb-Scargle Stokes U.pdf  used on input line 178.
+Package pdftex.def Info: Lomb-Scargle Stokes U.pdf  used on input line 180.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 178--179
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 180--181
  [] 
  []
 
 
-LaTeX Warning: File `Lomb-Scargle linear polarization.pdf' not found on input line 186.
+LaTeX Warning: File `Lomb-Scargle linear polarization.pdf' not found on input line 188.
 
-<Lomb-Scargle linear polarization.pdf, id=57, 1084.05pt x 686.565pt>
+<Lomb-Scargle linear polarization.pdf, id=58, 1084.05pt x 686.565pt>
 File: Lomb-Scargle linear polarization.pdf Graphic file (type pdf)
 <use Lomb-Scargle linear polarization.pdf>
-Package pdftex.def Info: Lomb-Scargle linear polarization.pdf  used on input line 186.
+Package pdftex.def Info: Lomb-Scargle linear polarization.pdf  used on input line 188.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 186--187
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 188--189
  [] 
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 196--197
+Underfull \hbox (badness 1365) in paragraph at lines 198--199
 []\T1/txr/m/n/10 Examining Fig.1[], which shows the Lomb-Scargle pe-ri-
  []
 
-[3 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.pdf>]
 
-LaTeX Warning: File `Lomb-Scargle Photo-center.pdf' not found on input line 245.
+LaTeX Warning: File `Lomb-Scargle Photo-center.pdf' not found on input line 247.
 
-<Lomb-Scargle Photo-center.pdf, id=167, 1084.05pt x 722.7pt>
+<Lomb-Scargle Photo-center.pdf, id=59, 1084.05pt x 722.7pt>
 File: Lomb-Scargle Photo-center.pdf Graphic file (type pdf)
 <use Lomb-Scargle Photo-center.pdf>
-Package pdftex.def Info: Lomb-Scargle Photo-center.pdf  used on input line 245.
+Package pdftex.def Info: Lomb-Scargle Photo-center.pdf  used on input line 247.
 (pdftex.def)             Requested size: 261.76535pt x 174.51018pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 245--248
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 247--249
  [] 
  []
 
-<Light_curve_Betelgeuse.pdf, id=168, 1084.05pt x 722.7pt>
+[3 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.pdf>]
+<Light_curve_Betelgeuse.pdf, id=169, 1084.05pt x 722.7pt>
 File: Light_curve_Betelgeuse.pdf Graphic file (type pdf)
 <use Light_curve_Betelgeuse.pdf>
-Package pdftex.def Info: Light_curve_Betelgeuse.pdf  used on input line 265.
+Package pdftex.def Info: Light_curve_Betelgeuse.pdf  used on input line 266.
 (pdftex.def)             Requested size: 261.76535pt x 174.51018pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 265--266
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 266--267
  [][] 
  []
 
@@ -687,32 +683,22 @@ Overfull \hbox (5.69055pt too wide) in paragraph at lines 265--266
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--277
+LaTeX Warning: File `Lomb-Scargle AAVSO.pdf' not found on input line 288.
 
- []
-
-
-LaTeX Warning: File `Lomb-Scargle AAVSO.pdf' not found on input line 283.
-
-<Lomb-Scargle AAVSO.pdf, id=169, 1084.05pt x 722.7pt>
+<Lomb-Scargle AAVSO.pdf, id=170, 1084.05pt x 722.7pt>
 File: Lomb-Scargle AAVSO.pdf Graphic file (type pdf)
 <use Lomb-Scargle AAVSO.pdf>
-Package pdftex.def Info: Lomb-Scargle AAVSO.pdf  used on input line 283.
+Package pdftex.def Info: Lomb-Scargle AAVSO.pdf  used on input line 288.
 (pdftex.def)             Requested size: 261.76535pt x 174.51018pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 283--284
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 288--290
  [] 
- []
-
-[4 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Light_curve_Betelgeuse.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle AAVSO.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 303--309
-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (/Users/art2/0art/art75/BetelgeusePulsation/main.bbl [5]
+ [4 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Light_curve_Betelgeuse.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle AAVSO.pdf>] (/Users/art2/0art/art75/BetelgeusePulsation/main.bbl [5]
 Underfull \hbox (badness 1688) in paragraph at lines 27--29
 []\T1/txr/m/n/8 Gray, D. F. 2008, The As-tro-nom-i-cal Jour-nal, 135, 1450, aDS Bib-code:
  []
@@ -726,18 +712,18 @@ Underfull \hbox (badness 1371) in paragraph at lines 95--97
 
 ] (/Users/art2/0art/art75/BetelgeusePulsation/main.aux) ) 
 Here is how much of TeX's memory you used:
- 5942 strings out of 492649
- 80939 string characters out of 6129622
+ 6007 strings out of 492649
+ 81821 string characters out of 6129622
  165885 words of memory out of 5000000
- 9645 multiletter control sequences out of 15000+600000
- 81307 words of font info for 136 fonts, out of 8000000 for 9000
+ 9696 multiletter control sequences out of 15000+600000
+ 102390 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,45p,1349b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/art2/0art/art75/BetelgeusePulsation/main.pdf (6 pages, 1059657 bytes).
+ 41i,11n,45p,1035b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/art2/0art/art75/BetelgeusePulsation/main.pdf (6 pages, 1061610 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 313 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
