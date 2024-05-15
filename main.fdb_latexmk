@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1715764813 "main.aux" "main.bbl" "main" 1715764814
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1715765034
   "./aa.bst" 1703178694 32101 d07be6eccf1293b463b353311acc9bc2 ""
   "art75.bib" 1715764670 62064 3271d50196b1285e9110e7e8e5cdc80e ""
-  "main.aux" 1714995960 7319 148583a6b33ebfbf7f25417fff5bcd96 ""
+  "main.aux" 1715765034 9761 2792cac974d18a90cac788b377fc8848 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1715764813 "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf" "main" 1715764814
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.aux" 1714995960 7319 148583a6b33ebfbf7f25417fff5bcd96 ""
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" 1715764813 67151 70346bd87dc59c15c495eb3c5174fa78 ""
+  "main.blg"
+["pdflatex"] 1715765034 "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf" "main" 1715765034
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.aux" 1715765034 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.tex" 1715765033 65287 65ae244c7290f18b2712cd5b519e512c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1480098696 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -136,12 +136,12 @@
   "Lomb-Scargle Stokes U.pdf" 1715764670 228410 7f682f69cd92524a866efffb3e6e56af ""
   "Lomb-Scargle linear polarization.pdf" 1715764670 251757 55950e9c500d476233a8a12578d0aa42 ""
   "aa.cls" 1703178694 63263 f72bc882d377d24b944742febd5e720d ""
-  "main.aux" 1714995960 7319 148583a6b33ebfbf7f25417fff5bcd96 ""
+  "main.aux" 1715765034 9761 2792cac974d18a90cac788b377fc8848 ""
   "main.bbl" 1715764813 5492 d3ac8b93a0465637944a77ef2454ea1f "bibtex main"
-  "main.tex" 1715764813 67151 70346bd87dc59c15c495eb3c5174fa78 ""
+  "main.tex" 1715765033 65287 65ae244c7290f18b2712cd5b519e512c ""
   (generated)
-  "main.pdf"
-  "main.aux"
-  "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf"
   "main.log"
+  "main.pdf"
+  "/Users/art2/0art/art75/BetelgeusePulsation/main.pdf"
   "/Users/art2/0art/art75/BetelgeusePulsation/main.log"
+  "main.aux"
