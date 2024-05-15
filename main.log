@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  15 MAY 2024 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  15 MAY 2024 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,7 +566,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--88
+Underfull \hbox (badness 1087) in paragraph at lines 68--89
+\T1/txr/m/n/10 has con-tinue its ran-dom vari-a-tion of bright-ness. But quite
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--89
 
  []
 
@@ -577,12 +582,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 [][]\T1/txr/m/n/9 Beyond a 2-year pro-pri-etary em-bargo, and up to tech-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/txr/m/n/9 ni-cal is-sues, all these data is avail-able through Po-lar-Base
  []
 
@@ -590,91 +595,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 Underfull \vbox (badness 3088) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 139.
+(Font)              scaled to size 9.49997pt on input line 140.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 140.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 139.
+(Font)              scaled to size 9.49997pt on input line 140.
 
 
-LaTeX Warning: File `Lomb-Scargle Intensity.pdf' not found on input line 161.
+LaTeX Warning: File `Lomb-Scargle Intensity.pdf' not found on input line 162.
 
 <Lomb-Scargle Intensity.pdf, id=12, 1084.05pt x 686.565pt>
 File: Lomb-Scargle Intensity.pdf Graphic file (type pdf)
 <use Lomb-Scargle Intensity.pdf>
-Package pdftex.def Info: Lomb-Scargle Intensity.pdf  used on input line 161.
+Package pdftex.def Info: Lomb-Scargle Intensity.pdf  used on input line 162.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 161--164
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 162--165
  [] 
  []
 
 
-LaTeX Warning: File `Lomb-Scargle Stokes Q.pdf' not found on input line 170.
+LaTeX Warning: File `Lomb-Scargle Stokes Q.pdf' not found on input line 171.
 
 <Lomb-Scargle Stokes Q.pdf, id=13, 1084.05pt x 686.565pt>
 File: Lomb-Scargle Stokes Q.pdf Graphic file (type pdf)
 <use Lomb-Scargle Stokes Q.pdf>
-Package pdftex.def Info: Lomb-Scargle Stokes Q.pdf  used on input line 170.
+Package pdftex.def Info: Lomb-Scargle Stokes Q.pdf  used on input line 171.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 170--171
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 171--172
  [] 
  []
 
 [2 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Intensity.pdf>]
 
-LaTeX Warning: File `Lomb-Scargle Stokes U.pdf' not found on input line 177.
+LaTeX Warning: File `Lomb-Scargle Stokes U.pdf' not found on input line 178.
 
 <Lomb-Scargle Stokes U.pdf, id=56, 1084.05pt x 686.565pt>
 File: Lomb-Scargle Stokes U.pdf Graphic file (type pdf)
 <use Lomb-Scargle Stokes U.pdf>
-Package pdftex.def Info: Lomb-Scargle Stokes U.pdf  used on input line 177.
+Package pdftex.def Info: Lomb-Scargle Stokes U.pdf  used on input line 178.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 177--178
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 178--179
  [] 
  []
 
 
-LaTeX Warning: File `Lomb-Scargle linear polarization.pdf' not found on input line 185.
+LaTeX Warning: File `Lomb-Scargle linear polarization.pdf' not found on input line 186.
 
 <Lomb-Scargle linear polarization.pdf, id=57, 1084.05pt x 686.565pt>
 File: Lomb-Scargle linear polarization.pdf Graphic file (type pdf)
 <use Lomb-Scargle linear polarization.pdf>
-Package pdftex.def Info: Lomb-Scargle linear polarization.pdf  used on input line 185.
+Package pdftex.def Info: Lomb-Scargle linear polarization.pdf  used on input line 186.
 (pdftex.def)             Requested size: 261.76535pt x 165.78467pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 185--186
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 186--187
  [] 
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 195--196
+Underfull \hbox (badness 1365) in paragraph at lines 196--197
 []\T1/txr/m/n/10 Examining Fig.1[], which shows the Lomb-Scargle pe-ri-
  []
 
 [3 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.pdf>]
 
-LaTeX Warning: File `Lomb-Scargle Photo-center.pdf' not found on input line 244.
+LaTeX Warning: File `Lomb-Scargle Photo-center.pdf' not found on input line 245.
 
 <Lomb-Scargle Photo-center.pdf, id=167, 1084.05pt x 722.7pt>
 File: Lomb-Scargle Photo-center.pdf Graphic file (type pdf)
 <use Lomb-Scargle Photo-center.pdf>
-Package pdftex.def Info: Lomb-Scargle Photo-center.pdf  used on input line 244.
+Package pdftex.def Info: Lomb-Scargle Photo-center.pdf  used on input line 245.
 (pdftex.def)             Requested size: 261.76535pt x 174.51018pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 244--247
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 245--248
  [] 
  []
 
 <Light_curve_Betelgeuse.pdf, id=168, 1084.05pt x 722.7pt>
 File: Light_curve_Betelgeuse.pdf Graphic file (type pdf)
 <use Light_curve_Betelgeuse.pdf>
-Package pdftex.def Info: Light_curve_Betelgeuse.pdf  used on input line 264.
+Package pdftex.def Info: Light_curve_Betelgeuse.pdf  used on input line 265.
 (pdftex.def)             Requested size: 261.76535pt x 174.51018pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 264--265
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
@@ -682,25 +687,25 @@ Overfull \hbox (5.69055pt too wide) in paragraph at lines 264--265
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--276
+Underfull \hbox (badness 10000) in paragraph at lines 271--277
 
  []
 
 
-LaTeX Warning: File `Lomb-Scargle AAVSO.pdf' not found on input line 282.
+LaTeX Warning: File `Lomb-Scargle AAVSO.pdf' not found on input line 283.
 
 <Lomb-Scargle AAVSO.pdf, id=169, 1084.05pt x 722.7pt>
 File: Lomb-Scargle AAVSO.pdf Graphic file (type pdf)
 <use Lomb-Scargle AAVSO.pdf>
-Package pdftex.def Info: Lomb-Scargle AAVSO.pdf  used on input line 282.
+Package pdftex.def Info: Lomb-Scargle AAVSO.pdf  used on input line 283.
 (pdftex.def)             Requested size: 261.76535pt x 174.51018pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 282--283
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 283--284
  [] 
  []
 
 [4 </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Light_curve_Betelgeuse.pdf> </Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle AAVSO.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 302--308
+Underfull \hbox (badness 10000) in paragraph at lines 303--309
 
  []
 
@@ -729,7 +734,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,11n,45p,1349b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/art2/0art/art75/BetelgeusePulsation/main.pdf (6 pages, 1059671 bytes).
+Output written on /Users/art2/0art/art75/BetelgeusePulsation/main.pdf (6 pages, 1059657 bytes).
 PDF statistics:
  309 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
