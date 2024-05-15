@@ -252,15 +252,17 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txmia.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xr.tfm
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Intensity.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Intensity.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xss.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xsssl.tfm
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Intensity.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Intensity.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.png
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes Q.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Stokes U.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle linear polarization.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xsl.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xsl.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmro.tfm
@@ -270,24 +272,25 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xr.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xr.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txr.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txr.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xss.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xsssl.tfm
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.png
-INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xsssl.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxphvro.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxsssl.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xr.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.pdf
+INPUT /Users/art2/0art/art75/BetelgeusePulsation/Lomb-Scargle Photo-center.pdf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txr.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /Users/art2/0art/art75/BetelgeusePulsation/Light_curve_Betelgeuse.png
 INPUT /Users/art2/0art/art75/BetelgeusePulsation/Light_curve_Betelgeuse.png
 INPUT /Users/art2/0art/art75/BetelgeusePulsation/Light_curve_Betelgeuse.png
