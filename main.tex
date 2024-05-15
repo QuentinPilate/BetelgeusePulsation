@@ -50,6 +50,7 @@
 %-------------------------------------------------------------------
 
 \section{Introduction}
+<<<<<<< HEAD
 Betelgeuse is a prototypical red supergiant (RSG) known to be a semi-regular variable. Several periods for this variability can be found in the 
 literature, usually clustered around the so-called long secondary period (LSP) of 2000 days, plus shorter periods of 400 and 200 days \citep{kiss_variability_2006}. 
 The origin of the LSP remains poorly known: some have tried to find the explanation of  the LSP in the lifetime of the large convective cells present at the surface of RSG (e.g \cite{stothers_giant_2010}) while others have invoked a the magnetic field \citep{wood_long_2004}. 
@@ -63,6 +64,14 @@ proposed that the 400 days period was a consequence of the convective activity}.
 in the span of one week. Bright convection cells near disk center will increase the integrated brightness of the star when 
 compared with other situations where such cells are found near the edges. So even without calling for the formation of 
 dust or other changes in opacity, one may argue that the simple evolution of convective patterns of the star may create a variability. Such 
+=======
+Betelgeuse is a prototypical red supergiant (RSG), known to be a semi-regular variable. Several periods can be found in the 
+literature, usually clustered around the so-called long secondary period (LSP) of 2000 d, plus shorter periods around 400 and 200 d \citep{kiss_variability_2006}. The origin of the LSP remains poorly understood: some have tried to find the explanation of the LSP in the lifetime of the large convective cells present at the surface of RSG \citep[e.g][]{stothers_giant_2010} while others have invoked a magnetic field \citep{wood_long_2004}. The shorter periods of 400 and 200 d seem to have a different origin than the LSP. By studying a large sample of RSGs, \cite{kiss_variability_2006} attributed the 400 d period to radial pulsation modes, while the 200 d period being attributed to the first overtone \citep{joyce_standing_2020}, in agreement with the historical work of \cite{stothers_pulsation_1969}.\\
+
+Besides radial pulsation, surface activity leading to random brightness variation has also been mentioned to explain the variability of Betelgeuse, firstly theorised by \cite{schwarzschild_scale_1975}. More recently, \cite{gray_mass_2008} proposed that the 400 d period was a consequence of convective activity. Betelgeuse is known to present large convective cells with lifetimes of the order of one to two years \citep{lopez_ariste_convective_2018} and measurable changes 
+within the span of one week. Bright convection cells near the disk center will increase the integrated brightness of the star compared with other situations where such cells are found near the edges. So, even without invoking the formation of 
+dust or other changes in opacity, one may argue that the simple evolution of convective patterns of the star may create variability. Such 
+>>>>>>> 1c02f22516351e051518d4415ad73c116f24326b
 variability could be expected to be random, but will present quasi-periodicities related to the typical time scales of the 
 convective patterns \citep{gray_mass_2008}. \\
 
@@ -106,15 +115,20 @@ in linear polarization, we must conclude that these periods are related to the c
 %and unrelated to any radial pulsation phenomena. 
 This is the purpose of the present work.\
 
+<<<<<<< HEAD
 %In section \ref{Section 2} we describe the dataset of linear polarization obtained with the Telescope Bernard Lyot (TBL) and the 
 %Lomb-Scargle technique used to derive periods. 
 %In section \ref{section 3} we associate the 200 days period to convective timescale of the smallest granules and the 330 days periodicity to the largest granules, and we provide an explanation in the change of variability of Betelgeuse before and after the great dimming. 
 %In section \ref{Conclusion}, we summup our work.
+=======
+In section \ref{Section 2}, we describe the dataset of linear polarization obtained with Narval and Neo-Narval at TBL, as well as the Lomb-Scargle periodograms used to derive periods. In section \ref{section 3}, we seek periods in the LSD profiles of Betelgeuse using the Lomb-Scarlge periodogram. In section \ref{section 4}, we associate the 200 d period with the convective timescale of the smallest granules and the 330 d periodicity with the largest granules. We speculate on an explanation in the change of variability of Betelgeuse before and after the great dimming. 
+>>>>>>> 1c02f22516351e051518d4415ad73c116f24326b
 
 
 \section{The polarimetric data}
 \label{Section 2}
 
+<<<<<<< HEAD
 Betelgeuse has been observed for the last 10 years with Narval and Neo-Narval at the Telescope Bernard Lyot. These two instruments measure the polarization 
 over the visible spectra of Betelgeuese (390-1000 nm) with high spectral resolution (R=65000) and high polarimetric sensitivity. Despite 
 this high sensitivity, the signal-to-noise ratios per spectral bin are not sufficient to measure the weak polarization signals in individual 
@@ -136,11 +150,33 @@ that spectral line are erased. All these data has been presented before by \cite
 \cite{lopez_ariste_three-dimensional_2022}, which also give details on observing times and conditions as well as more detailed description 
 on the data reduction\footnote[1]{Beyond a 2-year proprietary embargo, and up to technical issues, all these data is available through 
 PolarBase (http://polarbase.irap.omp.eu/).}.
+=======
+Betelgeuse has been observed for the last 10 years with Narval and Neo-Narval at the Telescope Bernard Lyot\footnote[1]{https://tbl.omp.eu/}. These two instruments measure the polarization 
+over the visible and near infrared spectra of Betelgeuese (390-1000 nm) with high spectral resolution (R=65000) and high polarimetric sensitivity. The signal-to-noise ratios are not sufficient to measure the weak polarization signals in individual atomic lines of the 
+spectrum. These amplitudes are known to be of the order of $10^{-4}$ times the continuum intensity, and they only exceptionally reach amplitudes of $10^{-3}$. In those observations, enough photons can be accumulated per spectral bin to 
+detect the linear polarization signal above noise in lines \citep{auriere_discovery_2016}. Most commonly, the amplitudes of linear polarization are below noise levels. On those 
+occasions, we have to add up the signals of thousands of lines to increase the signal-to-noise ratios. This addition 
+is performed through a technique called Least-Squares Deconvolution (LSD) \citep{donati_spectropolarimetric_1997}.% and assumes that the 
+%linear polarization signal is similar 
+%in all spectral lines up to scale factors in the sampling and amplitude.
+This technique has been successfully used in the past to measure 
+magnetic field distributions over stellar surfaces and is now employed to produce images of the brightness distributions in the photosphere 
+of Betelgeuse and other RSGs, as cited in the Introduction. 
+
+In this work, we shall examine the signals produced through the LSD technique, which produce a pseudo-spectral line in intensity 
+and linear polarization. This pseudo-spectral line does not correspond to any particular atomic species but rather represents an average of all species present and emitting in the 
+photosphere of Betelgeuse. Following these procedures of line addition, the resulting profiles carry the coherent signals present in the photospheric lines, but the specific characteristics of individual spectral lines are erased. All of this data has been previously presented before by \cite{auriere_discovery_2016}, \cite{mathias_evolution_2018} and 
+\cite{lopez_ariste_three-dimensional_2022}, which also provide details on observing times and conditions as well as a more detailed description 
+of the data reduction process\footnote[2]{Beyond a 2-year proprietary embargo, and up to technical issues, all these data is available through 
+PolarBase (http://polarbase.irap.omp.eu/).}.\\
+Note that all the velocities mentioned in the text or in the figures are provided in the heliocentric frame.
+>>>>>>> 1c02f22516351e051518d4415ad73c116f24326b
 
 
 
 %\subsection{Lomb-Scargle periodograms of the profiles}
 
+<<<<<<< HEAD
 \subsection{The variability in the Stokes profiles}
 
 
@@ -160,6 +196,20 @@ as the rest velocity of the star in our reference frame. Seldom, signals at velo
 and are interpreted as either dark and cold plasma falling back to Betelgeuse, 
 or to rising plumes of plasma located in the hidden face of Betelgeuse,
 and rising so high that they appear above the limb.
+=======
+\section{Period search}
+\label{section 3}
+
+
+Attempting to identify periods in an astrophysical context faces the challenge of unevenly spaced observed data. To overcome this hurdle, 
+we used the Lomb-Scargle periodogram \citep{lomb_least-squares_1976,scargle_studies_1982}. This method involves fitting sinusoids to the data using least-squares with frequency sampled between the first and last observation. The quality of the fit determines the power attributed to a frequency. We applied this technique to the  LSD profiles of Stokes $I$, $U$, $Q$ and to the total linear polarization of Betelgeuse observed by the TBL over a span of 10 years (2014-2024). However, the dataset available post-dimming is insufficient to produce meaningful periodograms. Therefore, our focus was on periodograns computed exclusively from data obtained before the great dimming, covering the period from 2014 to the end of 2019. 
+
+\subsection{Variability of the Stokes parameters}
+
+We first computed the Lomb-Scargle periodogram at each wavelength of the LSD profile, ranging from -25 km/s to +60 km/s to cover the entire 
+signal present in the LSD profile. \cite{lopez_ariste_convective_2018} identified the most blueshifted signal towards -20 km/s and interpreted it as  the maximum velocity of the rising plasma. The most redshifted signal was often found at +40 km/s, interpreted 
+as the rest velocity of the star. Sometimes, signals at velocities greater than +40 km/s can be found, which can be interpreted either as dark and cold plasma falling back to Betelgeuse or as rising plumes of plasma located on the hidden face of Betelgeuse, ascending so high that they appear above the limb \citep[for the case of the RSG $\mu$Cep]{lopez_ariste_height_2023}.
+>>>>>>> 1c02f22516351e051518d4415ad73c116f24326b
 
 
 
@@ -171,45 +221,39 @@ and rising so high that they appear above the limb.
 % This would lead to a decrease in the Lomb-Scargle power. By comparing LS periodogram before and after the dimming, we expect to see a change in the LS power,
 % especially at the 400 days period. 
 
+<<<<<<< HEAD
 Figures \ref{LS intensity},\ref{LS Q},\ref{LS U} and \ref{LS linear polarization} show the Lomb-Scargle periodogram of the LSD profiles of respectively 
 the intensity, Stokes $Q$, Stokes $U$ and the total linear polarization. 
 %The abscissa is the frequency (in $\mathrm{days^{-1}}$), while the ordinate is the heliocentric radial velocity in km/s. 
 For each figure, the uper panel is the Lomb-Scargle periodogram of each velocity bin (black line) and the total average (red line). The green line corresponds to the window function. 
 The lower panel is the Lomb-Scargle periodogram represented for each velocity bin, while the white dotted lines mark the 400 and 200 days periods for 
 reference. The right panel shows the mean profile of each Stokes parameter at each velocity bin.
+=======
+Figures \ref{LS intensity},\ref{LS Q},\ref{LS U} and \ref{LS linear polarization} show the Lomb-Scargle periodogram of the LSD profile for Stokes $I$, Stokes $Q$, Stokes $U$ and the total linear polarization, respectively. 
+%The abscissa is the frequency (in $\mathrm{days^{-1}}$), while the ordinate is the heliocentric radial velocity in km/s. 
+In each figure, the upper panel depicts the Lomb-Scargle periodogram of each velocity bin (black line) along with the total average (red line). The green line represents the window function. The lower panel shows the Lomb-Scargle periodogram for each velocity bin, with the white dotted lines marking the 400 and 200 d periods for reference. The right panel represents the mean profile of each Stokes parameter at each velocity bin.
+>>>>>>> 1c02f22516351e051518d4415ad73c116f24326b
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle Intensity.pdf}
     \caption{Lomb-Scargle periodogram of the LSD profile of intensity.
     The upper panel is the Lomb-Scargle periodogram for each velocity bin (black line) and the average (red line). The green line is the window function.
-<<<<<<< HEAD
-    In the lower pannel, the two white dashed lines mark respectively the 400 days and the 200 days periods. The right panel is the average intensity profile for each velocity bin.}
-=======
     In the lower panel, the two white dashed lines mark respectively the 400 d and the 200 d periods. The right panel is the average intensity profile for each velocity bin.}
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
     \label{LS intensity}
 \end{figure}
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle Stokes Q.pdf}
-<<<<<<< HEAD
-    \caption{Same as figure \ref{LS intensity} for Stokes $Q$. }
-=======
     \caption{Same as Fig. \ref{LS intensity} for Stokes $Q$. }
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
     \label{LS Q}
 \end{figure}
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle Stokes U.pdf}
-<<<<<<< HEAD
-    \caption{Same as figure \ref{LS intensity} for Stokes $U$.}
-=======
     \caption{Same as Fig. \ref{LS intensity} for Stokes $U$.}
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
     \label{LS U}
 \end{figure}
 
@@ -217,11 +261,7 @@ reference. The right panel shows the mean profile of each Stokes parameter at ea
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle linear polarization.pdf}
-<<<<<<< HEAD
-    \caption{Same as figure \ref{LS intensity} for total linear polarization: $\sqrt{Q^2+U^2}$.}
-=======
     \caption{Same as Fig. \ref{LS intensity} for the total linear polarization: $\sqrt{Q^2+U^2}$.}
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
     \label{LS linear polarization}
 \end{figure}
 
@@ -230,20 +270,6 @@ reference. The right panel shows the mean profile of each Stokes parameter at ea
 %\section{Recovering the variability of Betelgeuse in the LSD profile}
 
 %\subsection{Intensity}
-<<<<<<< HEAD
-Looking into Fig. \ref{LS intensity}, which shows the Lomb-Scargle periodogram of the LSD of the intensity profile, 
-we notice that the 400 and 200 days periods seem to be recovered by the periodogram. However, the 400 days period is uncomfortably close to 
-the peak of the window function. We also notice that the two periods are present at the same HRV. Interestingly, 
-\cite{mathias_evolution_2018} already found this 200 days periodicity in spectroscopic observations, in spite of a shorter observation period. 
-
-
-
-Figures \ref{LS Q} and \ref{LS U} show the Lomb-Scargle periodograms of Stokes $Q$ and $U$. These periodograms are completely different 
-from the intensity one. A strong signal is present in fig. \ref{LS Q} around 200 days. Concerning Stokes U, Fig. \ref{LS U}, it appears on the other hand that the main period is around $0.003 \ \mathrm{days^{-1}}$ (330 days). 
-Other periods such as those at 200 days or 250 days ($0.004 \ \mathrm{days^{-1}}$) are present but difficult to trust. From both Stokes $Q$ and $U$, we recover the 200 days period, and also a 330 days period which  is more or less close to the 400 days period found in the literature. 
-Figure \ref{LS linear polarization} shows the Lomb-Scargle periodogram of $\sqrt{Q^2+U^2}$, the total linear polarization of Betelgeuse. 
-The periodogram recovers the strong powers at both 330 days and 200 days, already found in either Stokes $Q$ and $U$. 
-=======
 Examining Fig.\ref{LS intensity}, which shows the Lomb-Scargle periodogram of the LSD of the intensity profile, we observe that the 400 and 200 d periods seem to be captured by the periodogram. However, the 400 d period is uncomfortably close to the peak of the window function. Furthermore, both periods are located at the same HRV and in the blue wing of the profile. Interestingly, \cite{mathias_evolution_2018} previously found this 200 d periodicity in spectroscopic observation, despite of a shorter observation period. 
 
 
@@ -251,7 +277,6 @@ Examining Fig.\ref{LS intensity}, which shows the Lomb-Scargle periodogram of th
 Figures \ref{LS Q} and \ref{LS U} display the Lomb-Scargle periodograms of Stokes $Q$ and $U$. These periodograms exhibit significant differences compared to the intensity one. In Fig. \ref{LS Q}, a prominent signal is evident around 200 d. Regarding Stokes $U$ in Fig. \ref{LS U}, it appears that the primary period is approximately $0.003 \ \mathrm{d^{-1}}$ (equivalent to 330 d). Although other periods, such as those at 200 d or 250 d ($0.004 \ \mathrm{d^{-1}}$) are present, but are difficult to trust. From both periodograms of Stokes $Q$ and $U$, we recover the 200 d period, and also the 330 d period is notable, which aligns closely with the 400 d period reported in the literature and is in agreement with the timescale of the hysteresis loop reported by \cite{kravchenko_tomography_2019}.  
 Figure \ref{LS linear polarization} shows the Lomb-Scargle periodogram of $\sqrt{Q^2+U^2}$, representing the total linear polarization of Betelgeuse. 
 This periodogram confirms the significant powers at both 330 d and 200 d, consistent with the periodograms of Stokes $Q$ and $U$. 
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
 
 %Nonetheless, the power of this period peaks at a HRV of around 40 km/s. We recall that this velocity is the rest velocity of the star. 
 %Every signal beyond this velocity is either due to  plasma sinking in Betelgeuse, or to plumes of plasma rising beyond and above the limb of the star. 
@@ -266,20 +291,6 @@ This periodogram confirms the significant powers at both 330 d and 200 d, consis
 % In any case, from the linear polarization and the intensity profile, we recover the different periods of Betelgeuse. Since linear polarization is 
 % associated to convection and because we recover the periods of Betelgeuse, the main mechanism behind the variability of Betelgeuse points toward surface convection.
 
-<<<<<<< HEAD
-\subsection{The variability in polarimetric imaging}
-
-Using linear polarization, \cite{lopez_ariste_convective_2018} were able to reconstruct images of Betelgeuse that have been successfully compared 
-to inteferometric images of \cite{montarges_close_2016}. The images are produced by finding the brightness distribution that better fits the observed linear 
-polarization LSD profiles, using a Marquardt-Levenberg minimisation.
-
-Betelgeuse is observed in average every month by the TBL, and hence
-we are able to follow its surface activity through this technique of polarimetric imaging. This has  allowed in the past the estimation of  
-the size and the lifetime of the convective cells
-at the surface \citep{lopez_ariste_convective_2018}. From these images, we can also compute a photo-center, which is sensitive to the size and the number of convective cells. 
-An homogeneous star will have a photo-center displacement coinciding with the barycenter of the star, whereas a star with one or two large convective cells will have a
-photo-center displacement more important, up to a few percent of the stellar radius in the case of \textbf{red giants?} \citep{chiavassa_probing_2022}. 
-=======
 \subsection{Variability of the polarimetric imaging}
 
 Using linear polarization, \cite{lopez_ariste_convective_2018} successfully reconstructed images of Betelgeuse, which have been compared favourably to inteferometric images obtained by \cite{montarges_close_2016}. The images are produced by finding the brightness distribution that better fits the observed linear 
@@ -288,96 +299,35 @@ polarization LSD profile using a Marquardt-Levenberg minimisation.
 Betelgeuse is observed, on average, every month by the TBL, enabling the tracking of its surface activity through this technique of polarimetric imaging. This technique has previously allowed for the estimation of  the size and the
  lifetime of convective cells on the surface \citep{lopez_ariste_convective_2018}. From these images, we computed a photo-center, a quantity sensitive to the size and number of convective cells. 
 A homogeneous star will have a photo-center displacement coinciding with the barycenter of the star, whereas a star with one or two large convective cells will exhibit a more siginificant photo-center displacement, up to a few percent of the stellar radius in the case of RSGs \citep{chiavassa_probing_2022}. 
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
 
 Since the photo-center is linked to surface convection, it is worth checking for periods in its 
 dynamics over the 5 years of observations of Betelgeuse before the dimming. While these periods may overlap with those presented in the previous section, they are likely to capture additional aspects of the phenomena at work.
 
 %We computed the Lomb-Scargle periodogram of the displacement of the photo-center.
-But, before proceeding to search for periods in the movements of the photo-center, we have to warn about the interpretation of such images. 
-Linear polarization suffers from a $180 ^\circ$ degree ambiguity already mentioned in \cite{auriere_discovery_2016}. For that reason, our 
-images can be rotated by $180^\circ$ degrees, and the brightness distribution will still fit the observed LSD polarization profiles. 
-If a particular observation were to be treated independently of previous observations, the solution found by 
-the algorithm could be any of the ambiguous solutions possible. To obtain a continuity 
-between the time series of images, for a given day we use the brightness distribution of the previous day as initial point 
-of the  fitting iteration. The first image of the series  starts its minimization iteration with 
-random brightness distribution. 
-Even though we are able to produce a series of images  consistent with each other, it is important 
-to keep in mind that the photo-center displacement computed from the series 
-will be affected by that first image of the series. 
-To overcome this issue, we decided to compute
-the photo-center displacement from 100 different time serieas, each one starting from a different initial image, in an effort to recover 
-from such ensemble
-properties that are independent of the choice of the first image. 
+However, before proceeding to search for periods in the displacement of the photo-center, it is important to address a key issue regarding the interpretation of such images. 
+Linear polarization suffers from a $180 ^\circ$ degree ambiguity, as mentioned in \cite{auriere_discovery_2016}. Consequently, our images 
+can be 
+rotated by $180^\circ$ degree, and the brightness distribution will still fit the observed LSD polarization profiles. 
+If each observation were treated independently, the algorithm's solution could be any of the possible ambiguous solutions. To ensure continuity 
+between the image series, 
+for a given day, we use the brightness distribution of the previous day as the initial point 
+of the  fitting iteration. The first image in the series begins its minimisation iteration with a random brightness distribution. 
+Although we can produce a series of consistent images, it is important to keep in mind that the photo-center displacement computed from the series 
+will be affected by the initial image. 
+To overcome this issue, we computed
+the photo-center displacement from 100 different time series, each starting from a different initial image. This approach aims to recover ensemble properties independent of the choice of the first image. 
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Lomb-Scargle Photo-center.pdf}
-<<<<<<< HEAD
-    \caption{Lomb-Scargle periodogram of the 100 series of photo-center displacements of Betelgeuse. Each blue line correspond to a Lomb-Scargle periodogram of one series of photo-center
-     displacement. The black line is the average of the 100 periodograms. The red dashed lines mark the 400 and 200 days periods respectively 
-     (from left to right). As before, the green line is the window function.}
-=======
     \caption{Lomb-Scargle periodogram of the 100 photo-center displacement of Betelgeuse. Each blue lines correspond to a Lomb-Scargle periodogram of one photo-center
      displacement. The black line is the average of the 100 periodogram. The red dashed lines represent the 400 and 200 d period respectively 
      (from left to right). The green line is the window function.}
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
     \label{LS photocenter}
 \end{figure}
 
 Figure \ref{LS photocenter} shows the Lomb-Scargle periodogram of the photo-center displacement for each of the 100 series (blue lines) and the average Lomb-Scargle periodogram (black line). 
 %As before, the upper panel shows the Lomb-Scargle periodogram from data before the great dimming only, whereas we used the whole set of data for the lower panel.
-<<<<<<< HEAD
-while the red dashed lines mark the 400 and 
-200 days periods respectively. As before, the window function is represented by the green line. We find two bumps around the 400 days period, which are not 
-sufficiently significant to confirm the presence of such period on their own. However, they concur with the results of the previous section, 
-and since polarimetry imaging involves only surface convection, this is a further argument towards a variability explained by surface convection alone. 
-%First, we find that the Lomb-Scargle power is high around the LSP, though
-%uncomfortably close to the auto-correlation peak.
-%We also notice a decrease in the Lomb-Scargle power from  before to after the dimming, in 
-%concurrence to what was seen in the periodograms of the LSD profiles. Before it, there are two smalls bumps around the 400 days period. 
-%But those bumps almost completely disappear after the dimming. Even though it is 
-%hard to identify the 400 days period from those bumps alone,
-%we still find that there is a difference before and after the dimming. 
-%And this is concluded  from images that exclusively involve surface convection.
-%The Lomb-Scargle periodogram of the photo-center displacement points towards a variability explained by convection only,
-%and this is consistent with what we obtained from linear polarization.
-%Both the photo-center displacement and the LS of the linear polarization point toward a variability explained by surface convection.  
-
-\section{Explanations for the variability of the light curve of Betelgeuse}
-\label{section 3}
-%Before summing up the conclusions of this work, we can afford proposing alternative scenarios for the observed periodicities in the light curve, 
-%the LSD profiles and the displacement of the photo-center of the inferred photospheric image reconstructions. 
-The presence of the same 
-periods and, after taking into consideration the time span and sparsity of the TBL data series, the larger amplitude of the peaks found in
-polarization data  compared to those  in the light curve point to a common origin, one that is rather based upon convective dynamics. 
-
-\textbf{The 200-days period appears prominently in the Stokes Q and U profiles. We can }
-associate the 200-days period to the typical timescales on which the Stokes parameters evolve. 
-The LSD profiles of Stokes $Q$ or $U$ will slightly change when we observe Betelgeuse every month, but are completely overhauled 
-on time scales of several months. The Lomb-Scargle periodograms appear to capture these dynamics at periods of about 200 days.
- Such changes in the profiles are directly linked to the dynamics of the surface,  to  the evolution and movements 
-of convective cells over the visible hemisphere. So the 200-day period appears to be related to the evolution of the convective patterns 
-on the surface of Betelgeuse.  The fact that this peak is strongly present in Stokes $Q$ but less in $U$ 
-can be interpreted as a temporal situation of how the convective patterns have been distributed in the last 10 years.
-%points toward a more stochastic origin, which can fully be explained by convection.\
-
-The other period found in the total linear polarization and Stokes $U$, the 330-days period, is more or less close to the 400 days period 
-often present in the literature (e.g \cite{kiss_variability_2006} found a period $388 \pm 30$ days). It has been found
-by \cite{lopez_ariste_convective_2018} that large convective cells can live  one  to two years, and this period could be associated to the 
-timescales on which the largest granules evolve. This typical timescale has also been observed in the numerical simulations and might 
-play an important role in the determination of stellar distances through the displacement of the photo-center \citep{chiavassa_probing_2022}. 
-Once again we observe this 330-days periodicity to be more present in Stokes $U$ than in $Q$, what may unravel a 
-random situation due to convective motions in the last 10 years. This interpretation appears to be  consistent with the work of \cite{gray_mass_2008}, 
-who attributed the 400 days period to the large convective cells.  
-
-\textbf{Finally, the intensity profiles do  seem to vary in  400 days periods, but the measured peak is uncomfortably close to a 
-peak of the window function of the time series observed with the TBL. This 400-days period, it could be a mix of the typical convective 
-timescales of large granules associated with stochastic pulsations exited by convective cavities. Up to this point, the model developed to 
-interpret linear polarization does not involve pulsations, that is why we interpret the 200 days period as the convective turnover timescale. 
-The 400 days period involve the intensity profile, thus the 400 days period is probably caused by both convective timescales and stochastic 
-pulsations.}
-=======
 The red dashed lines indicate the 400 and 
 200 d periods, respectively. Similar to previous figures, the window function is represented by the green line. Interestingly, we find two peaks around the 400 d period in the periodogram, although they are not individually significant to confirm the presence of such period. However, these peaks are consistent with the findings of the previous section. Since polarimetry imaging involves only surface convection, this provides further support for a variability being explained by surface convection alone.
 
@@ -428,7 +378,6 @@ last years.\
 The other period found in the total linear polarization and Stokes $U$, the 330 d periods, is not so far from the 400 days period often mentioned in the literature (e.g \cite{kiss_variability_2006} found a period of $388 \pm 30$ d). It has been shown by \cite{lopez_ariste_convective_2018} that large convective cells can persist for one to two years. Thus, the 330 d period could be associated to the timescale on which the largest granules evolve. This characteristic timescale has also been observed in the numerical simulations and might play an important role in determining stellar distances through the displacement of the photo-center \citep{chiavassa_probing_2022}. Once again, we observe the 330 d periodicity to be more prominent in Stokes $U$ than in $Q$, what may unravel a random situation due to convective motions in the last years. This interpretation aligns with the work of \cite{gray_mass_2008}, who attributed the 400 d period to large convective cells.  \
 
 Regarding the Stokes $I$ profile, it seems to correspond to the 400 d period, but is uncomfortably close to a peak of the window function of the TBL, making this peak difficult to trust. A secondary peak close to 200 d is also present in the Stokes $I$ profile. Since we are able to recover the 200 d period in the Stokes parameters, we attribute this period to convective timescales. Up to this point, the model developed to interpret linear polarization involves only surface convection, which is why we interpret the 200 d period as the convective timescale of the smallest structures, while the 400 d period corresponds to the timescale of the largest structures.\\
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
  %As showed by
 %\cite{lopez_ariste_convective_2018}, some of those convective cells can live up for years. We may speculate
 %that the LSP may be related to those long living structures. However the present span of data from the TBL is insufficient to do more than
@@ -436,37 +385,10 @@ Regarding the Stokes $I$ profile, it seems to correspond to the 400 d period, bu
 % the peak is not present in stokes U, and this may point to a more stochastic event than just long-living structures.
 
 
-<<<<<<< HEAD
-%After examining the periods found by the Lomb-Scargle technique on the polarization data, and its derivatives, obtained by the TBL over the last 
-%10 years, it is worth putting them in the context of the periods found traditionally on light curves over the same period of time. Two aspects 
-%are of  interest in this comparison: the behavior of the light curve before and after the great dimming.
-%and the amplitudes of the peaks 
-%at the main cited per%iods.
-
-% In the literature, it is reported that before the great dimming the main period of Betelgeuse was of 400 days \citep{kiss_variability_2006}. 
-% This pulsation is often associated to the fundamental pressure mode. After the dimming, however this period appears to have disappeared 
-% and only the period at 200 days,  associated to the first overtone of the fundamental mode, is visible since. 
-% No explanations based upon pulsations have been ofered concerning this change of variability after or perhaps because of the dimming. But this 
-% is a behaviour that
-
-We have recovered the light curve of Betelgeuse in the visible from the AAVSO database for the last 10 years (Figure \ref{light curve Betelgeuse}).
-Before the great dimming, the magnitude of Betelgeuse evolves on a timescale of a year, whereas after the dimming, the variability of Betelgeuse has shortened. 
-It is clear from fig. \ref{light curve Betelgeuse} that the 
-variability of Betelgeuse is evolving on a timescale shorter than one year. This qualitative change has been pointed out before,
-before the great dimming the main period of Betelgeuse was of 400 days \citep{kiss_variability_2006}. 
-This period is often associated to the fundamental pressure mode. After the dimming however, this period appears to have disappeared 
-and only timescales shorter than 230 days are visible since \citep{dupree_great_2022}. 
-No explanations have been offered concerning this change of variability after or perhaps because of the dimming, thus we can afford proposing alternative scenarios for the observed periodicities in the light curve. \
-
-RSGs encounter mass loss event, where due to stellar winds, plasma is ejected in the interstellar medium. Those events have already been inferred in RSG like $\mu$Cep, where \cite{lopez_ariste_height_2023} found an excess of linear polarization beyond the limb of the star and associated it to rising plumes of plasma in the back hemisphere of the star. In the case of Betelgeuse, this kind of event happened only once or twice during the last 10 years, with no change in the variability of the star. However, since the great dimming, the variability of Betelgeuse has changed, meaning that this event was such different from the usual mass loss event, that it hustled the dynamics of the photosphere. \
-
-Considering a scenario where the variability of Betelgeuse is mostly governed by convection, before the great dimming, the variability of the star was linked to the typical timescale on which convection occurs, that is 200 days for the small structures and roughly 350 days for the large structures. The great dimming impacted the behaviour of the photosphere, such that the largest structures do not evolve on timescale of the order of 350 days but rather 200 days, that is the smallest convective structures. We hypothesise that since the dimming, the photosphere is not in equilibrium and the largest convective structures are destroyed by the turbulent motion of the photosphere. Therefore, it is hard to identify periods after the great dimming, which \cite{dupree_great_2022} noticed. We expect to recover the 400 days variability within the next years, which corresponds to the time for the photosphere to go back to equilibrium.  
-=======
 
 Before summing up the results of our work, we can afford to explain the variability of Betelgeuse after the great dimming with surface convection. RSGs experience mass loss event, where plasma is ejected into the interstellar medium \citep{josselin_atmospheric_2007}. These events have been inferred in RSG such as $\mu$Cep, where \cite{lopez_ariste_height_2023} found an excess of linear polarization beyond the limb of the star, attributing it to rising plumes of plasma in the back hemisphere of the star. In the case of Betelgeuse, the excess of linear polarization beyond the limb is rare and not as pronounced as those observed in $\mu$Cep. Also, they do not change the variability of the star. However, since the great dimming, the variability of Betelgeuse has changed. This suggests that the great dimming differed significantly from the usual mass loss event, that it hustled the dynamics of the photosphere. \
 
 In a scenario where the variability of Betelgeuse is primarily governed by convection, before the great dimming, the variability of the star was associated to the typical timescale at which convection occurs: approximately 200 d for the small structures and roughly 350 d for the large structures. The great dimming affected the behaviour of the photosphere in such a way that the largest structures no longer evolved on a timescale around 350 d, but rather on the timescale of the smallest convective structures, around 200 d. We hypothesise that since the great dimming event, the photosphere has not returned to equilibrium, and the largest convective structures have been disrupted by the turbulent motion of the photosphere. Consequently, identifying periods after the great dimming is hard, which \cite{dupree_great_2022} noticed. We expect that the 400 d variability will gradually reappear in the coming years as the photosphere returns to equilibrium. However, it is essential to note that this scenario is speculative but provides a rough explanation of how convective activity could lead to a change in variability since the great dimming. A more detailed explanation of this variability change falls beyond the scope of this paper and is left for future research.
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
 %But this 
 %is a behaviour that fully concurs with what we find in the polarization data, and which cannot be related to any stellar pulsation but rather 
 %convective dynamics. Beyond the actual values of the periods found in a Lomb-Scargle periodogram, we also see a correspondence between polarization 
@@ -567,41 +489,19 @@ In a scenario where the variability of Betelgeuse is primarily governed by conve
 \section{Conclusion}
 \label{Conclusion}
 
-<<<<<<< HEAD
-The main result  presented in this work is that the same periods identified in the light curve of Betelgeuse are also seen in the intensity and polarization
-spectra, as measured with the TBL. Periods in the light curve have often been traditionally associated to pulsation due to pressure modes.
-=======
 The main result presented in this work is that the same periods identified in the light curve of Betelgeuse are also observed in the intensity and polarization
 spectra measured with the TBL. Traditionally, periods in the light curve have been associated to pulsations due to pressure modes.
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
 %But such pulsation would in no case affect the polarisation signals nor would explain the fact that the periods can be observed with stronger 
 %amplitude at selected wavelengths but no others. % Pulsation appears to offer no coherent explanation to these observations, are hardly to the 
 %observed changes in the variability since the great dimming.  The concurrence of observational facts, actual period values, evolution before 
 %and after the dimming, the larger amplitude of the period peaks in polarizarion data, points towards a common origin for those variabilities. 
 %And such origin cannot be pulsations.
-<<<<<<< HEAD
-But the interpretation of the linear polarization profiles is made in terms of convective structures in the atmosphere of Betelgeuse. We suggest 
-that it is in these convective structures and their temporal evolution that we will find the true reason for the observed periodicities both 
-in the light curve and in the spectropolarimetric observations. This is the main conclusion of this work: since we are able to recover the different periods in the linear polarization profiles, 
-we associate the 200-days periodicity to convective dynamics while the 400-days periodicity may be related \textbf{to both stochastic pulsations and convective timescales of the largest granules.} 
-This conclusion concurs with the scenario proposed by \cite{gray_mass_2008}, who attributed the variability of Betelgeuse to surface convection. 
-%the observed periods are related 
-%to convective dynamics and not to radial pulsations of the star.
-
-Although of secondary importance, we may suggest with more or less ease what phenomena are at the origin of the change of variability before and after the 
-great dimming. We speculate that the great dimming event hustled the dynamics of the photosphere, and the largest granules were 
-destroyed by the turbulent motions caused by the non equilibrium of the photosphere. Since this event, the variability of Betelgeuse has 
-quickened  in adequacy with the timescales of  smaller convective cells, about 200-days. Were this be true, we shall expect in the 
-coming future to see the 400-days variability re-appear as the dominant period, whenever  the photosphere returns to some equilibrium. 
-Longer time  series of spectropolarimetric observations of Betelgeuse will be required to shed light on this.
-=======
 However, the interpretation of the linear polarization profiles is made in terms of convective structures in the atmosphere of Betelgeuse. We propose that the true reason for the observed periodicities in both the light curve and spectropolarimetric observations lies within these convective structures and their temporal evolution. This is the main conclusion of our work: since we are able to recover the different periods in the linear polarization profiles, we associate the 200 d periodicity to convective dynamics, while the 400 d periodicity is linked to convective timescales of the largest granules. This conclusion concurs with the scenario proposed by \cite{gray_mass_2008}, attributing the variability of Betelgeuse to surface convection. 
 %the observed periods are related 
 %to convective dynamics and not to radial pulsations of the star.
 
 Although of secondary importance, we can speculate on the phenomena underlying the change in variability before and after the great dimming event. We hypothesize that the great dimming event disrupted the dynamics of the photosphere, leading to the destruction of the largest granules by the turbulent motions caused by the non-equilibrium of the photosphere. Since this event, the variability of Betelgeuse has quickened in adequacy with the timescale of smaller convective cells, around 200 d. If this scenario is correct, we shall expect in the coming future, the re-emergence of the 400 d variability as the dominant period once the photosphere returns to some form of equilibrium. Longer time 
 series of spectropolarimetric observations of Betelgeuse will be necessary to provide further insights into this phenomenon.
->>>>>>> 234ba9bf04bfa56ec2de436422869ac280239091
 
 %Although of secondary importance, we may suggest with more or less ease what phenomena are at the origin of the main periods. The 400-day period 
 %appears to be strongly related to the appearance of plumes in the back hemisphere of the star rising high enough to be seen above the limb.
