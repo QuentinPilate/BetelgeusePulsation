@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: aa.bst
+Database file #1: art75.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty institution in lopez_ariste_three-dimensional_2022
+You've used 25 entries,
+            3039 wiz_defined-function locations,
+            818 strings with 11216 characters,
+and the built_in function-call counts, 15544 in all, are:
+= -- 1238
+> -- 1569
+< -- 7
++ -- 538
+- -- 501
+* -- 1394
+:= -- 2904
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 274
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 457
+empty$ -- 664
+format.name$ -- 555
+if$ -- 3038
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 24
+newline$ -- 79
+num.names$ -- 100
+pop$ -- 248
+preamble$ -- 1
+purify$ -- 267
+quote$ -- 0
+skip$ -- 413
+stack$ -- 0
+substring$ -- 587
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 225
+warning$ -- 1
+while$ -- 99
+width$ -- 0
+write$ -- 258
+(There was 1 warning)

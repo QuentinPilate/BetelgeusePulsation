@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
@@ -42,6 +42,9 @@ Harper, G.~M., Guinan, E.~F., Wasatonic, R., \& Ryde, N. 2020, The
 Jadlovský, D., Krtička, J., Paunzen, E., \& Štefl, V. 2023, New Astronomy,
   99, 101962
 
+\bibitem[{Josselin \& Plez(2007)}]{josselin_atmospheric_2007}
+Josselin, E. \& Plez, B. 2007, Astronomy and Astrophysics, 469, 671
+
 \bibitem[{Joyce {et~al.}(2020)Joyce, Leung, Molnár, Ireland, Kobayashi, \&
   Nomoto}]{joyce_standing_2020}
 Joyce, M., Leung, S.-C., Molnár, L., {et~al.} 2020, The Astrophysical Journal,
@@ -50,6 +53,11 @@ Joyce, M., Leung, S.-C., Molnár, L., {et~al.} 2020, The Astrophysical Journal,
 \bibitem[{Kiss {et~al.}(2006)Kiss, Szabo, \& Bedding}]{kiss_variability_2006}
 Kiss, L.~L., Szabo, G.~M., \& Bedding, T.~R. 2006, Monthly Notices of the Royal
   Astronomical Society, 372, 1721
+
+\bibitem[{Kravchenko {et~al.}(2019)Kravchenko, Chiavassa, Van~Eck, Jorissen,
+  Merle, Freytag, \& Plez}]{kravchenko_tomography_2019}
+Kravchenko, K., Chiavassa, A., Van~Eck, S., {et~al.} 2019, Astronomy \&
+  Astrophysics, 632, A28
 
 \bibitem[{Kravchenko {et~al.}(2021)Kravchenko, Jorissen, Van~Eck, Merle,
   Chiavassa, Paladini, Freytag, Plez, Montargès, \&
