@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
@@ -12,6 +12,9 @@ Auri{\`e}re, M., L{\'o}pez~Ariste, A., Mathias, P., {et~al.} 2016, Astronomy
   De~Mink}]{chiavassa_probing_2022}
 Chiavassa, A., Kudritzki, R., Davies, B., Freytag, B., \& De~Mink, S.~E. 2022,
   Astronomy \& Astrophysics, 661, L1
+
+\bibitem[{{Donati} \& {Landstreet}(2009)}]{donatiLandstreet2009}
+{Donati}, J.~F. \& {Landstreet}, J.~D. 2009, \araa, 47, 333
 
 \bibitem[{Donati {et~al.}(1997)Donati, Semel, Carter, Rees, \&
   Collier~Cameron}]{donati_spectropolarimetric_1997}
@@ -53,6 +56,14 @@ Joyce, M., Leung, S.-C., Molnár, L., {et~al.} 2020, The Astrophysical Journal,
 \bibitem[{Kiss {et~al.}(2006)Kiss, Szabo, \& Bedding}]{kiss_variability_2006}
 Kiss, L.~L., Szabo, G.~M., \& Bedding, T.~R. 2006, Monthly Notices of the Royal
   Astronomical Society, 372, 1721
+
+\bibitem[{{Kochukhov}(2021)}]{kochukhov2021}
+{Kochukhov}, O. 2021, \aapr, 29, 1
+
+\bibitem[{Kochukhov {et~al.}(2010)Kochukhov, Makaganiuk, \&
+  Piskunov}]{kochukhov_least-squares_2010}
+Kochukhov, O., Makaganiuk, V., \& Piskunov, N. 2010, Astronomy \& Astrophysics,
+  524, A5
 
 \bibitem[{Kravchenko {et~al.}(2019)Kravchenko, Chiavassa, Van~Eck, Jorissen,
   Merle, Freytag, \& Plez}]{kravchenko_tomography_2019}
@@ -108,6 +119,9 @@ Montargès, M., Cannon, E., Lagadec, E., {et~al.} 2021, Nature, 594, 365,
   Berger}]{montarges_close_2016}
 Montargès, M., Kervella, P., Perrin, G., {et~al.} 2016, Astronomy \&
   Astrophysics, 588, A130
+
+\bibitem[{{Reiners}(2012)}]{reiners2012}
+{Reiners}, A. 2012, Living Reviews in Solar Physics, 9, 1
 
 \bibitem[{Scargle(1982)}]{scargle_studies_1982}
 Scargle, J.~D. 1982, The Astrophysical Journal, 263, 835
