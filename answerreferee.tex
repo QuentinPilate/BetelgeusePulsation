@@ -9,7 +9,7 @@ We would like to thank the anonymous referee for the comments. Every changes in 
 
 \textbf{Major comments:}\\
 
-Q: Given that this paper presents an analysis of a polarimetric dataset to try to find periodic
+Given that this paper presents an analysis of a polarimetric dataset to try to find periodic
 behaviors in the data, I feel that the introduction section of the paper would benefit from a more
 extended discussion of the periodicities found in Betelgeuse that currently exists in the
 literature, including uncertainties on those numbers. Currently some of this information is
@@ -17,9 +17,9 @@ scattered throughout the paper and not included in the introduction, but it is i
 reader to have a thorough understanding of what the current state of our understanding of its
 periodicities are so that they can put the results of this paper in context.\\
 
-A: We added extra information in the introduction about the different periods found in the literature and their uncertainties. Especially, we did mention the uncertainties found by Jadlovsky et al.2023 and Joyce et al.2020. We also added another reference to Montargès et al.2016 and Chiavassa et al. 2022.\\
+A: We added extra information in the introduction about the different periods found in the literature and their uncertainties. Especially, we did mention the uncertainties found by Jadlovsky et al. (2023) and Joyce et al. (2020). We also added another reference to Montargès et al. (2016) and Chiavassa et al. (2022).\\
 
-Q: I feel that section 2 of the paper would benefit from more discussion on the details of the
+I feel that section 2 of the paper would benefit from more discussion on the details of the
 dataset. I know that the data have been previously published in Aurière et al. (2016), Mathias et
 al. (2018), and López Ariste et al. (2022) and each of those papers includes both a table of the
 data they used and the details of the observations, but I think a brief summary of those details in
@@ -40,7 +40,7 @@ future, they may easily mistake the time period over which the data was taken.\\
 
 A: We added the total number of observations that we used to compute the periodograms. There is a total of 56 observations, we precised that 43\% of the observations were taken between September and December while the other 57\% are taken between January and April. Only Narval data were used in this study, since Neo-Narval was operational after the Great Dimming of Betelgeuse.\\ 
 
-Q: Why was a Lomb-Scargle periodogram not computed for the position angle of the polarization
+Why was a Lomb-Scargle periodogram not computed for the position angle of the polarization
 and shown? I understand that this information is really already tied into the Q and plots, but
 so is the \% polarization. In general, I feel that it s best to include \% polarization and position angle
 in papers using polarimetric data because that s easier for people not used to working with
@@ -53,14 +53,18 @@ years. Convective cells could arise in peculiar positions, where Stokes profile 
 unchanged for month but where Stokes Q could change on shorter timescales. I believe a
 periodogram of position angle might help support this statement.\\
 
-A: \\
+A: Contrary to the other questions and suggestions made by the referee, we mostly disagree in this point with the remark of the referee on the interest of showing the results for the polar angle. And this disagreement requires a longer response than the other questions.
+For a starter we strongly disagree in that giving a degree of polarization and a polar angle is a good thing.\\
+The purpose of the referee was to point out that showing Q/U  may reveal information not apparent in the separate Q and U various plots. We must not delay ourselves in the difficulty of numerically analysing a ratio Q/U where U can be zero, but rather insist on the possible interpretations of such ratio. The referee recalls a sentence of the present manuscript where we suggest a possible connection between the differences in Q and U and a possible preference of the position angle of convective patterns on the disk of Betelgeuse during the periods of observation. This rises the doubt on whether by polar angle the referee meant all the time the actual polar angle of particular features inferred on the disk of Betelgeuse rather than the angle of the polarization ellipse. Whether this is the actual intended meaning of "polar angle" or not, the response is the same: this is a derived quantity so, as the referee points out, there is no further information in it that is not in Q and U separately. And whatever this information is, there is no other manner of interpreting it than in terms of the azimuthal distribution of features over the disk. But such distribution is tributary of not just this angle but of the whole brightness distribution model used in the inversion algorithm and it is risky to interpret any periodicities in Q/U as azimuth anisotropies. We agree that in such case our own sentence is perhaps too speculative and ambiguous. Perhaps it should be retired. But we thought that 1) it is important to mention that we are aware that Q and U show differences and that these differences could be interpreted as azimuth anisotropies, but 2) this is not the purpose of the present paper.\\
+It is the purpose of the present paper to show that the very same periodicities that have been historically interpreted as oscillations or pulsations can be re-interpreted as due to the convection dynamics alone, and that indeed this is the most appropriate explanation since the very same periodicities are seen in observables unrelated to pulsation or oscillatory phenomena as are the Stokes parameters. Whether there is further information on the convection of Betelgeuse hidden in those peridocities is beyond our present purpose, but that would be the only interest on comparing Q and U periodicities, through the ratio Q/U or else, to further explore such dynamics. This is not our purpose now, however interesting.\\
 
-Q: How was the relative scaling between each 1.8 km/s step maintained in the periodograms to
+
+How was the relative scaling between each 1.8 km/s step maintained in the periodograms to
 produce figures 1 through 4?\\
 
 A: For a given periodogram, we computed the highest power of each velocity bin. Then, every other power was compared to this highest value. The closer the power is to the highest power, the redder it is.  \\
 
-Q: In several places, starting in Section 3 and going through the end of the paper, the manuscript
+In several places, starting in Section 3 and going through the end of the paper, the manuscript
 mentions the window function of the Lomb-Scargle periodograms. I think there needs to be a
 brief explanation on what the window function is and how that can be used in the interpretation
 of the results because only people who are experts in Lomb-Scargle analysis are likely know
@@ -68,13 +72,13 @@ what this is.\\
 
 A: We added the following sentence to be sure that readers that are not experts in LS analysis understand the window function "The spectral window reﬂects the pattern caused by the structure of gaps in the time string. The peaks pointed out by this window cannot be interpreted as ones related to the star."\\
 
-Q: In section 3.2, a Lomb-Scargle periodogram is computed from the photo-center displacements
+In section 3.2, a Lomb-Scargle periodogram is computed from the photo-center displacements
 from polarimetric reconstructed imaging that was presented in López Ariste et al. (2022). The
 details of how the photo-center displacements are calculated need to be stated.\\
 
-A: The reference of how the photo-center was computed was added, it was computed using the equations of Chiavassa et al 2022.\\
+A: The reference of how the photo-center was computed was added, it was computed using the equations 2 and 3 from Chiavassa et al. (2022).\\
 
-Q: At first glance, Section 3.3 seems a bit redundant because the paper already is doing a
+At first glance, Section 3.3 seems a bit redundant because the paper already is doing a
 Lomb-Scargle analysis of the Stokes I parameter. Because Stokes I is total light, it is the light
 curve of Betelgeuse. But because the AAVSO light curve and the Stokes I data should be
 identical, I think a comparison between the two is important because it could validate the results
@@ -102,68 +106,68 @@ A: We computed the periodogram where AAVSO observations correspond to the TBL ob
 
 \textbf{Minor comments:}\\
 
-Q: Section 1:\\
+Section 1:\\
 In the last paragraph of section 1, Lomb-Scargle is misspelled the second time it is used. (The
-misspelling is in the sentence that starts In section 3, we seek )\\
+misspelling is in the sentence that starts "In section 3, we seek..." )\\
 
 A: Corrected.\\
 
-Q: In the last paragraph of section 1 of the paper (line 99 of the manuscript in the reviewer’s copy), the abbreviation LSD is used before the reader is told what it stands for (currently that s in the first paragraph of section 2, lines 122 and 123). I suggest flipping these so what LSD stands for
+In the last paragraph of section 1 of the paper (line 99 of the manuscript in the reviewer’s copy), the abbreviation LSD is used before the reader is told what it stands for (currently that s in the first paragraph of section 2, lines 122 and 123). I suggest flipping these so what LSD stands for
 is clarified the first time it is mentioned.\\
 
-A : We flipped the two sentences.\\
+A: We flipped the two sentences.\\
 
-Q: Section 2:\\
+Section 2:\\
 In the first sentence of section 2, the acute accent over the first e in the word Télescope is missing.\\
 
 A: Corrected.\\
 
-Q: From López Ariste et al. (2022), I understand that the upgrade between Narval and Neo-Narval
+From López Ariste et al. (2022), I understand that the upgrade between Narval and Neo-Narval
 happened during Betelgeuse s great dimming. Therefore, was any neo-Narval data actually
 included in the Lomb-Scargle analysis shown? If not, then maybe Neo-Narval shouldn t even be
 mentioned in section 2 of the paper.\\
 
 A: We only used Narval data in our paper, it was clarified in the text, at the beginning of Section 3. \\
 
-Q: The total number of lines that go into the LSD profile of each observation should be mentioned,
+The total number of lines that go into the LSD profile of each observation should be mentioned,
 including the details of how lines are chosen to be included. (e.g. the details of the mask, cut off
 for the central depth of the lines compared to the continuum for them to be included, etc.)\\
 
-A: We added information about the mask to produce the LSD profile, those information can also be found in Mathias et al 2018 and Aurière et al 2016.\\
+A: We added information about the mask to produce the LSD profile, those information can also be found in Mathias et al. (2018) and Aurière et al. (2016).\\
 
-Q: Section 3:\\
+Section 3:\\
 How was the Lomb-Scargle analysis performed? Was it using the Lomb-Scargle class in astropy
 or some other fitting software (such as Period04)?\\
 
 A: We used the Lomb-Scargle class from Astropy and added a reference in the text.\\ 
 
-Q: "Sometimes, signals at velocities greater than +40 km/s can be found..." is mentioned in the first paragraph of section 3. How much greater than +40 km/s are they? Since the explanation for
+"Sometimes, signals at velocities greater than +40 km/s can be found..." is mentioned in the first paragraph of section 3. How much greater than +40 km/s are they? Since the explanation for
 signals greater than this velocity is convective processes, is +60 km/s enough to still include
 them? If so, maybe just stating that the +60 km/s cut off was used to ensure you always include
 the occasional +40 km/s signal is appropriate.\\
 
 A: The peaks in the linear polarization signal do not exceed +50km/s, so the cut off at +60km/s is to add the occasional signal above +40km/s. We precised it in the paper. \\
 
-Q: In the second paragraph of Section 3.1, the paper states that the upper panel depicts the
+In the second paragraph of Section 3.1, the paper states that the upper panel depicts the
 Lomb-Scargle periodogram of each velocity bin (black line)... , but I believe that this should be
 grey lines.\\
 
 A: Thank you for the precision. \\
 
-Q: Figures 1 through 4 all have HRV listed on the y-axis of the bottom plots, but this abbreviation is not defined anywhere. Perhaps it could be stated that it means heliocentric radial velocity in the
+Figures 1 through 4 all have HRV listed on the y-axis of the bottom plots, but this abbreviation is not defined anywhere. Perhaps it could be stated that it means heliocentric radial velocity in the
 caption of figure 1. Additionally, all four plots have the individual periodograms in the top panels,
 but there is no y-axis label. Is that axis power on those panels? If so, I believe it should be labeled. Similarly, the color axis in the bottom panels is not explained. (e.g. Red shows a higher power than dark blue).\\
 
 A: The abbreviation of HRV was included in the legend of Figure 1, as well as the signification of the color axis. The label of the y-axis (power) was added in the figures.\\
 
-Q: Line 196 (Section 3.1 paragraph 4), states "...it appears that the primary period is approximately 0.003 d\^-1 (equivalent to 330 d). I believe it should read ...it appears that the primary frequency is approximately 0.003 d\^-1 (equivalent to a 330 d period)." Section 4, paragraph 2 of the paper states, "Once again, we observe the 330 d periodicity to be more prominent in Stokes than in Q, what may unravel a random situation due to convective motions in the last years. Convective cells could arise in peculiar positions, where Stokes profile remains unchanged for month but where Stokes Q could change on shorter timescales." I think the authors mean Once again, we observe the 330 d periodicity to be more prominent in Stokes than in Q, which may unravel a random situation due to convective motions in the last years. Convective cells could arise in peculiar positions, where Stokes profile remains unchanged for months but where Stokes Q could change on shorter timescales.\\
+Line 196 (Section 3.1 paragraph 4), states "...it appears that the primary period is approximately 0.003 d\^-1 (equivalent to 330 d). I believe it should read ...it appears that the primary frequency is approximately 0.003 d\^-1 (equivalent to a 330 d period)." Section 4, paragraph 2 of the paper states, "Once again, we observe the 330 d periodicity to be more prominent in Stokes than in Q, what may unravel a random situation due to convective motions in the last years. Convective cells could arise in peculiar positions, where Stokes profile remains unchanged for month but where Stokes Q could change on shorter timescales." I think the authors mean Once again, we observe the 330 d periodicity to be more prominent in Stokes than in Q, which may unravel a random situation due to convective motions in the last years. Convective cells could arise in peculiar positions, where Stokes profile remains unchanged for months but where Stokes Q could change on shorter timescales.\\
 
 A: We corrected the sentences. \\
 
-Q: Why is a confidence level given for only one periodogram? How was it determined? In my
+Why is a confidence level given for only one periodogram? How was it determined? In my
 understanding of Lomb-Scargle analysis, confidence levels aren’t very reliable.\\
 
-A: We computed the confidence level by computing the standard deviation of the mean value of each 100 periodogram. Since the images that we produce from polarimetry imaging are ambiguous, we performed a statistical analysis to see that the variability found in the photo-center displacement was due to statistical reasons, up to 1 sigma (not 2 as mentioned in the text). Concerning the other periodograms, we computed the LS for each velocity bin and we wanted to see if a variability shows up or not. But there is no reason to compute the confidence level in the observations since we are not performing a statistical analysis on the observations. 
+A: We computed the confidence level by computing the standard deviation of the mean value of the 100 periodograms (black line Fig.5). Since the images that we produce from polarimetry imaging are ambiguous, we performed a statistical analysis to see that the variability found in the photo-center displacement was due to statistical reasons, up to 1 sigma (not 2 as mentioned in the text). Concerning the other periodograms, we computed the LS for each velocity bin and we wanted to see if a variability shows up or not. But there is no reason to compute the confidence level in the observations since we are not performing a statistical analysis on the observations. 
 
 
 \end{document}

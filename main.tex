@@ -140,7 +140,8 @@ Note that all the velocities mentioned in the text or in the figures are provide
 
 
 Attempting to identify periods in an astrophysical context faces the challenge of unevenly spaced observed data. To overcome this hurdle, 
-we used the Lomb-Scargle periodogram \citep{lomb_least-squares_1976,scargle_studies_1982}. This method involves fitting sinusoids to the data using least-squares with frequency sampled between the first and last observation \textbf{\citep{the_astropy_collaboration_astropy_2018}}. The quality of the fit determines the power attributed to a frequency. We applied this technique to the  LSD profiles of Stokes $I$, $U$, $Q$ and to the total linear polarization of Betelgeuse observed by the TBL over a span of 10 years (\textbf{2013}-2024). However, the dataset available post-dimming is insufficient to produce meaningful periodograms. Therefore, our focus was on periodograns computed exclusively from data obtained before the great dimming, covering the period from \textbf{ November 2013} to \textbf{April} 2019. \textbf{We only used data obtained from Narval, with a total of 56 observations}. 
+we used the Lomb-Scargle periodogram \citep{lomb_least-squares_1976,scargle_studies_1982} \textbf{as implemented in astropy \citep{the_astropy_collaboration_astropy_2018}}. This method involves fitting sinusoids to the data using least-squares with frequency sampled between the first and last observation. The quality of the fit determines the power attributed to a frequency. 
+\textbf{We applied this technique to the LSD profiles of Stokes $I$, $Q$, $U$ and to the total linear polarization of Betelgeuse observed by the TBL with Narval from 2013 to 2019, with a total of 56 observations. We also looked at the periodograms obtained from the dataset available post-dimming, from 2020 to 2024. However, this dataset is insufficient to produce meaningful periodograms. Therefore, our focus was on periodograms computed exclusively from data obtained before the great dimming with Narval.}
 
 \subsection{Variability of the Stokes parameters}
 
@@ -203,7 +204,7 @@ Using linear polarization, \cite{lopez_ariste_convective_2018} successfully reco
 polarization LSD profile using a Marquardt-Levenberg minimisation.
 
 Betelgeuse is observed, on average, every month by the TBL, enabling the tracking of its surface activity through this technique of polarimetric imaging. This technique has previously allowed for the estimation of  the size and the
- lifetime of convective cells on the surface \citep{lopez_ariste_convective_2018}. From these images, we computed a photo-center, a quantity sensitive to the size and number of convective cells. \textbf{The photo-center was computed from the equations given by \cite{chiavassa_probing_2022}.} 
+ lifetime of convective cells on the surface \citep{lopez_ariste_convective_2018}. From these images, we computed a photo-center, a quantity sensitive to the size and number of convective cells. \textbf{The photo-center was computed from the equations 2 and 3 given by \cite{chiavassa_probing_2022}.} 
 A homogeneous star will have a photo-center displacement coinciding with the barycenter of the star, whereas a star with one or two large convective cells will exhibit a more siginificant photo-center displacement, up to a few percent of the stellar radius in the case of RSGs \citep{chiavassa_probing_2022}. 
 
 Since the photo-center is linked to surface convection, it is worth checking for periods in its 
